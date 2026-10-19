@@ -1,0 +1,7 @@
+game: {id: generic_wasd, name: Generic WASD, platform: Windows keyboard input}
+key_mapping:
+  {accelerate: w, brake: s, left: a, right: d, handbrake: space, nitro: n, pause: esc}
+sensitivity: normal
+steering_limits: {maximum_angle: 60, dead_zone: 7}
+calibration: {minimum_hand_span: 0.12}
+hud_branding: {title: Generic WASD, accent: "#ffb020"}

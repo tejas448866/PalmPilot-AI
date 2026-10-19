@@ -1,0 +1,76 @@
+{
+  "accuracy": 1.0,
+  "precision_weighted": 1.0,
+  "recall_weighted": 1.0,
+  "f1_weighted": 1.0,
+  "confusion_matrix": [
+    [
+      2,
+      0
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "labels": [
+    "closed_fist",
+    "open_palm"
+  ],
+  "classification_report": {
+    "closed_fist": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "open_palm": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    }
+  },
+  "cross_validation": {
+    "random_forest": {
+      "best_score": 0.5133333333333334,
+      "best_parameters": {
+        "model__max_depth": null,
+        "model__n_estimators": 100
+      }
+    },
+    "svm": {
+      "best_score": 0.5333333333333333,
+      "best_parameters": {
+        "model__C": 1.0,
+        "model__kernel": "linear"
+      }
+    },
+    "knn": {
+      "best_score": 0.58,
+      "best_parameters": {
+        "model__n_neighbors": 5,
+        "model__weights": "uniform"
+      }
+    },
+    "logistic_regression": {
+      "best_score": 0.5999999999999999,
+      "best_parameters": {
+        "model__C": 10.0
+      }
+    }
+  }
+}

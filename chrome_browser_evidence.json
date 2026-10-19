@@ -1,0 +1,2900 @@
+{
+  "events": [
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "[Portal] 1.286.2"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1785167459652.652,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "13",
+              "url": "https://builds.crazygames.com/portal-web/_next/static/chunks/main-2ae499b50ad2e8b0.js",
+              "lineNumber": 12,
+              "columnNumber": 201
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "debug",
+        "args": [
+          {
+            "type": "object",
+            "className": "Object",
+            "description": "Object",
+            "objectId": "7443503145725008786.1.1"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1785167459870.541,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "13",
+              "url": "https://builds.crazygames.com/portal-web/_next/static/chunks/main-2ae499b50ad2e8b0.js",
+              "lineNumber": 12,
+              "columnNumber": 201
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "log",
+        "args": [
+          {
+            "type": "string",
+            "value": "[ServiceWorker] registration successful with scope: "
+          },
+          {
+            "type": "string",
+            "value": "https://www.crazygames.com/"
+          },
+          {
+            "type": "object",
+            "className": "ServiceWorkerRegistration",
+            "description": "ServiceWorkerRegistration",
+            "objectId": "7443503145725008786.1.2"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1785167460296.788,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "13",
+              "url": "https://builds.crazygames.com/portal-web/_next/static/chunks/main-2ae499b50ad2e8b0.js",
+              "lineNumber": 12,
+              "columnNumber": 201
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Log.entryAdded",
+      "params": {
+        "entry": {
+          "source": "other",
+          "level": "warning",
+          "text": "Origin trial controlled feature not enabled: 'focus-without-user-activation'.",
+          "timestamp": 1785167459892.344,
+          "url": "https://builds.crazygames.com/portal-web/_next/static/chunks/framework-b162bf5cb41417ee.js",
+          "lineNumber": 0,
+          "stackTrace": {
+            "callFrames": [
+              {
+                "functionName": "eZ",
+                "scriptId": "11",
+                "url": "https://builds.crazygames.com/portal-web/_next/static/chunks/framework-b162bf5cb41417ee.js",
+                "lineNumber": 0,
+                "columnNumber": 7569
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "method": "Log.entryAdded",
+      "params": {
+        "entry": {
+          "source": "other",
+          "level": "warning",
+          "text": "Allow attribute will take precedence over 'allowfullscreen'.",
+          "timestamp": 1785167459892.62,
+          "url": "https://builds.crazygames.com/portal-web/_next/static/chunks/framework-b162bf5cb41417ee.js",
+          "lineNumber": 0,
+          "stackTrace": {
+            "callFrames": [
+              {
+                "functionName": "st",
+                "scriptId": "11",
+                "url": "https://builds.crazygames.com/portal-web/_next/static/chunks/framework-b162bf5cb41417ee.js",
+                "lineNumber": 0,
+                "columnNumber": 142082
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "method": "Log.entryAdded",
+      "params": {
+        "entry": {
+          "source": "javascript",
+          "level": "warning",
+          "text": "The resource https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "timestamp": 1785167462910.888,
+          "url": "https://www.crazygames.com/game/racing-limits"
+        }
+      }
+    },
+    {
+      "method": "Page.frameNavigated",
+      "params": {
+        "frame": {
+          "id": "86F02F9BD99A5D0035B82F76B72EFE6C",
+          "parentId": "E6D0F2DF8D54E6BB73828E510106F552",
+          "loaderId": "510A88BB013F36F8D7CF1C985BFB2209",
+          "name": "__pb_locator__",
+          "url": "about:blank",
+          "domainAndRegistry": "",
+          "securityOrigin": "://",
+          "securityOriginDetails": {
+            "isLocalhost": false
+          },
+          "mimeType": "text/html",
+          "adFrameStatus": {
+            "adFrameType": "none",
+            "explanations": []
+          },
+          "secureContextType": "Secure",
+          "crossOriginIsolatedContextType": "NotIsolated",
+          "gatedAPIFeatures": []
+        },
+        "type": "Navigation"
+      }
+    },
+    {
+      "method": "Log.entryAdded",
+      "params": {
+        "entry": {
+          "source": "other",
+          "level": "error",
+          "text": "Not signed in with the identity provider.",
+          "timestamp": 1785167463157.295,
+          "url": "https://www.crazygames.com/game/racing-limits"
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "warning",
+        "args": [
+          {
+            "type": "string",
+            "value": "[GPT] PubAdsService.setSafeFrameConfig is deprecated, use googletag.setConfig({safeFrame: ...}) instead.\nhttps://goo.gle/gpt-message#170"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1785167463503.791,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "13",
+              "url": "https://builds.crazygames.com/portal-web/_next/static/chunks/main-2ae499b50ad2e8b0.js",
+              "lineNumber": 12,
+              "columnNumber": 201
+            },
+            {
+              "functionName": "YZ.log",
+              "scriptId": "67",
+              "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607210101/pubads_impl.js",
+              "lineNumber": 18,
+              "columnNumber": 422387
+            },
+            {
+              "functionName": "YZ.M",
+              "scriptId": "67",
+              "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607210101/pubads_impl.js",
+              "lineNumber": 18,
+              "columnNumber": 422798
+            },
+            {
+              "functionName": "Wt",
+              "scriptId": "67",
+              "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607210101/pubads_impl.js",
+              "lineNumber": 18,
+              "columnNumber": 129826
+            },
+            {
+              "functionName": "",
+              "scriptId": "67",
+              "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607210101/pubads_impl.js",
+              "lineNumber": 18,
+              "columnNumber": 432974
+            },
+            {
+              "functionName": "",
+              "scriptId": "67",
+              "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607210101/pubads_impl.js",
+              "lineNumber": 18,
+              "columnNumber": 104757
+            },
+            {
+              "functionName": "",
+              "scriptId": "51",
+              "url": "https://fafvertizing.crazygames.com/v12.30/rafvertizing.js",
+              "lineNumber": 0,
+              "columnNumber": 224305
+            },
+            {
+              "functionName": "bx.push",
+              "scriptId": "67",
+              "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607210101/pubads_impl.js",
+              "lineNumber": 18,
+              "columnNumber": 462780
+            },
+            {
+              "functionName": "",
+              "scriptId": "67",
+              "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607210101/pubads_impl.js",
+              "lineNumber": 18,
+              "columnNumber": 104757
+            },
+            {
+              "functionName": "cx",
+              "scriptId": "67",
+              "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607210101/pubads_impl.js",
+              "lineNumber": 18,
+              "columnNumber": 149091
+            },
+            {
+              "functionName": "",
+              "scriptId": "67",
+              "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607210101/pubads_impl.js",
+              "lineNumber": 18,
+              "columnNumber": 641038
+            },
+            {
+              "functionName": "BF",
+              "scriptId": "67",
+              "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607210101/pubads_impl.js",
+              "lineNumber": 18,
+              "columnNumber": 211597
+            },
+            {
+              "functionName": "DF.next",
+              "scriptId": "67",
+              "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607210101/pubads_impl.js",
+              "lineNumber": 18,
+              "columnNumber": 211891
+            },
+            {
+              "functionName": "",
+              "scriptId": "67",
+              "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607210101/pubads_impl.js",
+              "lineNumber": 18,
+              "columnNumber": 212305
+            },
+            {
+              "functionName": "EF",
+              "scriptId": "67",
+              "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607210101/pubads_impl.js",
+              "lineNumber": 18,
+              "columnNumber": 212190
+            },
+            {
+              "functionName": "_.F",
+              "scriptId": "67",
+              "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607210101/pubads_impl.js",
+              "lineNumber": 18,
+              "columnNumber": 212339
+            },
+            {
+              "functionName": "",
+              "scriptId": "67",
+              "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607210101/pubads_impl.js",
+              "lineNumber": 18,
+              "columnNumber": 639858
+            },
+            {
+              "functionName": "",
+              "scriptId": "67",
+              "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607210101/pubads_impl.js",
+              "lineNumber": 18,
+              "columnNumber": 641680
+            },
+            {
+              "functionName": "",
+              "scriptId": "67",
+              "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607210101/pubads_impl.js",
+              "lineNumber": 18,
+              "columnNumber": 643262
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Page.frameNavigated",
+      "params": {
+        "frame": {
+          "id": "050332E15B751B6E006FF45F40E89683",
+          "parentId": "E6D0F2DF8D54E6BB73828E510106F552",
+          "loaderId": "0B9DD4C8522B17B78A08B9C892298ADF",
+          "name": "googlefcPresent",
+          "url": "about:blank",
+          "domainAndRegistry": "",
+          "securityOrigin": "://",
+          "securityOriginDetails": {
+            "isLocalhost": false
+          },
+          "mimeType": "text/html",
+          "adFrameStatus": {
+            "adFrameType": "none",
+            "explanations": []
+          },
+          "secureContextType": "Secure",
+          "crossOriginIsolatedContextType": "NotIsolated",
+          "gatedAPIFeatures": []
+        },
+        "type": "Navigation"
+      }
+    },
+    {
+      "method": "Page.frameNavigated",
+      "params": {
+        "frame": {
+          "id": "52D4CF7894A7E7A40E9D844E62E84B93",
+          "parentId": "E6D0F2DF8D54E6BB73828E510106F552",
+          "loaderId": "E4962938AA5C802EA3655A91FAC37324",
+          "name": "__tcfapiLocator",
+          "url": "about:blank",
+          "domainAndRegistry": "",
+          "securityOrigin": "://",
+          "securityOriginDetails": {
+            "isLocalhost": false
+          },
+          "mimeType": "text/html",
+          "adFrameStatus": {
+            "adFrameType": "none",
+            "explanations": []
+          },
+          "secureContextType": "Secure",
+          "crossOriginIsolatedContextType": "NotIsolated",
+          "gatedAPIFeatures": []
+        },
+        "type": "Navigation"
+      }
+    },
+    {
+      "method": "Page.frameNavigated",
+      "params": {
+        "frame": {
+          "id": "6263E46FE00069790383F2B875E5F6CA",
+          "parentId": "E6D0F2DF8D54E6BB73828E510106F552",
+          "loaderId": "84DF25768623C05D2A42832E7FF5AC77",
+          "name": "googlefcInactive",
+          "url": "about:blank",
+          "domainAndRegistry": "",
+          "securityOrigin": "://",
+          "securityOriginDetails": {
+            "isLocalhost": false
+          },
+          "mimeType": "text/html",
+          "adFrameStatus": {
+            "adFrameType": "none",
+            "explanations": []
+          },
+          "secureContextType": "Secure",
+          "crossOriginIsolatedContextType": "NotIsolated",
+          "gatedAPIFeatures": []
+        },
+        "type": "Navigation"
+      }
+    },
+    {
+      "method": "Page.frameNavigated",
+      "params": {
+        "frame": {
+          "id": "3AF801DA07FDA8CEA989C7AE5BF5B380",
+          "parentId": "E6D0F2DF8D54E6BB73828E510106F552",
+          "loaderId": "2B5B812FAEFBB08E4A32A62EA0FD329E",
+          "name": "googlefcLoaded",
+          "url": "about:blank",
+          "domainAndRegistry": "",
+          "securityOrigin": "://",
+          "securityOriginDetails": {
+            "isLocalhost": false
+          },
+          "mimeType": "text/html",
+          "adFrameStatus": {
+            "adFrameType": "none",
+            "explanations": []
+          },
+          "secureContextType": "Secure",
+          "crossOriginIsolatedContextType": "NotIsolated",
+          "gatedAPIFeatures": []
+        },
+        "type": "Navigation"
+      }
+    },
+    {
+      "method": "Page.frameDetached",
+      "params": {
+        "frameId": "3833E58FA29E3F50DCD600EF1CE8E4E2",
+        "reason": "swap"
+      }
+    },
+    {
+      "method": "Page.frameDetached",
+      "params": {
+        "frameId": "DDD4AD64D36C2BE2C9D083A3FF33C98C",
+        "reason": "swap"
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "warning",
+        "args": [
+          {
+            "type": "string",
+            "value": "[GPT] Slot.updateTargetingFromMap is deprecated, use Slot.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message#171"
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1785167464926.094,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "13",
+              "url": "https://builds.crazygames.com/portal-web/_next/static/chunks/main-2ae499b50ad2e8b0.js",
+              "lineNumber": 12,
+              "columnNumber": 201
+            },
+            {
+              "functionName": "YZ.log",
+              "scriptId": "67",
+              "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607210101/pubads_impl.js",
+              "lineNumber": 18,
+              "columnNumber": 422387
+            },
+            {
+              "functionName": "YZ.M",
+              "scriptId": "67",
+              "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607210101/pubads_impl.js",
+              "lineNumber": 18,
+              "columnNumber": 422798
+            },
+            {
+              "functionName": "rv",
+              "scriptId": "67",
+              "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607210101/pubads_impl.js",
+              "lineNumber": 18,
+              "columnNumber": 141040
+            },
+            {
+              "functionName": "",
+              "scriptId": "67",
+              "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607210101/pubads_impl.js",
+              "lineNumber": 18,
+              "columnNumber": 439914
+            },
+            {
+              "functionName": "",
+              "scriptId": "67",
+              "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202607210101/pubads_impl.js",
+              "lineNumber": 18,
+              "columnNumber": 104757
+            },
+            {
+              "functionName": "",
+              "scriptId": "60",
+              "url": "https://fafvertizing.crazygames.com/v12.30/rafvertizing-prebid.js",
+              "lineNumber": 1838,
+              "columnNumber": 28
+            },
+            {
+              "functionName": "",
+              "scriptId": "60",
+              "url": "https://fafvertizing.crazygames.com/v12.30/rafvertizing-prebid.js",
+              "lineNumber": 1832,
+              "columnNumber": 24
+            },
+            {
+              "functionName": "",
+              "scriptId": "60",
+              "url": "https://fafvertizing.crazygames.com/v12.30/rafvertizing-prebid.js",
+              "lineNumber": 1830,
+              "columnNumber": 22
+            },
+            {
+              "functionName": "",
+              "scriptId": "60",
+              "url": "https://fafvertizing.crazygames.com/v12.30/rafvertizing-prebid.js",
+              "lineNumber": 5910,
+              "columnNumber": 49
+            },
+            {
+              "functionName": "",
+              "scriptId": "60",
+              "url": "https://fafvertizing.crazygames.com/v12.30/rafvertizing-prebid.js",
+              "lineNumber": 5851,
+              "columnNumber": 74
+            },
+            {
+              "functionName": "setPrebidTargeting",
+              "scriptId": "51",
+              "url": "https://fafvertizing.crazygames.com/v12.30/rafvertizing.js",
+              "lineNumber": 0,
+              "columnNumber": 203959
+            },
+            {
+              "functionName": "",
+              "scriptId": "51",
+              "url": "https://fafvertizing.crazygames.com/v12.30/rafvertizing.js",
+              "lineNumber": 0,
+              "columnNumber": 201795
+            },
+            {
+              "functionName": "",
+              "scriptId": "60",
+              "url": "https://fafvertizing.crazygames.com/v12.30/rafvertizing-prebid.js",
+              "lineNumber": 6182,
+              "columnNumber": 20
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Page.frameDetached",
+      "params": {
+        "frameId": "D55130237B64E4154EDA51B2DB9EA456",
+        "reason": "swap"
+      }
+    },
+    {
+      "method": "Page.frameDetached",
+      "params": {
+        "frameId": "D55130237B64E4154EDA51B2DB9EA456",
+        "reason": "remove"
+      }
+    },
+    {
+      "method": "Page.frameDetached",
+      "params": {
+        "frameId": "97E83D94199D9BAED44D65EDD70726D5",
+        "reason": "swap"
+      }
+    },
+    {
+      "method": "Page.frameDetached",
+      "params": {
+        "frameId": "E8035D7B54E4DDA6C13839EF49751AF8",
+        "reason": "swap"
+      }
+    },
+    {
+      "method": "Page.frameDetached",
+      "params": {
+        "frameId": "8DFED1003262D5FE25321C7B06707422",
+        "reason": "swap"
+      }
+    },
+    {
+      "method": "Page.frameDetached",
+      "params": {
+        "frameId": "97E83D94199D9BAED44D65EDD70726D5",
+        "reason": "remove"
+      }
+    },
+    {
+      "method": "Log.entryAdded",
+      "params": {
+        "entry": {
+          "source": "javascript",
+          "level": "warning",
+          "text": "The resource https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "timestamp": 1785167476618.359,
+          "url": "https://www.crazygames.com/game/racing-limits"
+        }
+      }
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "error",
+        "args": [
+          {
+            "type": "string",
+            "value": "[GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token."
+          }
+        ],
+        "executionContextId": 1,
+        "timestamp": 1785167480405.119,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "13",
+              "url": "https://builds.crazygames.com/portal-web/_next/static/chunks/main-2ae499b50ad2e8b0.js",
+              "lineNumber": 12,
+              "columnNumber": 201
+            },
+            {
+              "functionName": "console.error",
+              "scriptId": "15",
+              "url": "https://builds.crazygames.com/portal-web/_next/static/chunks/pages/_app-a19b7ca1ef831631.js",
+              "lineNumber": 0,
+              "columnNumber": 10489
+            },
+            {
+              "functionName": "_.H",
+              "scriptId": "59",
+              "url": "https://accounts.google.com/gsi/client",
+              "lineNumber": 87,
+              "columnNumber": 88
+            },
+            {
+              "functionName": "_.Su.ka",
+              "scriptId": "59",
+              "url": "https://accounts.google.com/gsi/client",
+              "lineNumber": 347,
+              "columnNumber": 352
+            },
+            {
+              "functionName": "ka",
+              "scriptId": "59",
+              "url": "https://accounts.google.com/gsi/client",
+              "lineNumber": 349,
+              "columnNumber": 415
+            },
+            {
+              "functionName": "",
+              "scriptId": "59",
+              "url": "https://accounts.google.com/gsi/client",
+              "lineNumber": 307,
+              "columnNumber": 773
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "Log.entryAdded",
+      "params": {
+        "entry": {
+          "source": "network",
+          "level": "error",
+          "text": "Failed to load resource: net::ERR_CONNECTION_TIMED_OUT",
+          "timestamp": 1785167484318.616,
+          "url": "https://gum.criteo.com/sid/json?origin=prebid&topUrl=https%3A%2F%2Fwww.crazygames.com%2F&domain=www.crazygames.com&cw=1&lsw=1",
+          "networkRequestId": "21328.360"
+        }
+      }
+    },
+    {
+      "method": "Log.entryAdded",
+      "params": {
+        "entry": {
+          "source": "javascript",
+          "level": "warning",
+          "text": "The resource https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "timestamp": 1785167487330.663,
+          "url": "https://www.crazygames.com/game/racing-limits"
+        }
+      }
+    },
+    {
+      "method": "Log.entryAdded",
+      "params": {
+        "entry": {
+          "source": "javascript",
+          "level": "warning",
+          "text": "The resource https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "timestamp": 1785167493229.943,
+          "url": "https://www.crazygames.com/game/racing-limits"
+        }
+      }
+    },
+    {
+      "method": "Log.entryAdded",
+      "params": {
+        "entry": {
+          "source": "javascript",
+          "level": "warning",
+          "text": "The resource https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "timestamp": 1785167496559.646,
+          "url": "https://www.crazygames.com/game/racing-limits"
+        }
+      }
+    }
+  ],
+  "responses": [
+    {
+      "url": "https://imgs.crazygames.com/assets/SVG/icons/originals6.svg",
+      "status": 200,
+      "mime": "image/svg+xml",
+      "headers": {
+        "access-control-expose-headers": "*",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "x-amz-version-id": "Dd32r0mGE_n4CW2OjGXBALY3gByxW4aS",
+        "age": "101340",
+        "etag": "W/\"97e297f5b97cd22c0a0afda1d409b398\"",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "UoRrO6iSuvEZ-LG6R3IGxPn87v2n-ihDWHyfE8kwLfYjpxUibKkpnA==",
+        "date": "Mon, 27 Jul 2026 15:50:59 GMT",
+        "content-type": "image/svg+xml",
+        "last-modified": "Fri, 06 Mar 2026 15:14:04 GMT",
+        "x-amz-replication-status": "COMPLETED",
+        "cache-control": "public, max-age=94608000, s-maxage=94608000",
+        "via": "1.1 2ad26f5878b778b17955978bf962dc9a.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd8f9f5875a4-DEL",
+        "access-control-allow-origin": "*",
+        "x-amz-cf-pop": "FRA60-P9",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://imgs.crazygames.com/assets/SVG/icons/refresh.svg",
+      "status": 200,
+      "mime": "image/svg+xml",
+      "headers": {
+        "access-control-expose-headers": "*",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "x-amz-version-id": "DArnwVWBB3U.1bIwckrWX9bwLK1ospuP",
+        "age": "131041",
+        "etag": "W/\"a84e084c3c6c2d992b8303cecc80ffc3\"",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "4nQoKRGaQYbZ6CE1AlRJ1WpzKmxodeMZBOmUA1w4ZmkVAo5Q4_jRvA==",
+        "date": "Mon, 27 Jul 2026 15:50:59 GMT",
+        "content-type": "image/svg+xml",
+        "last-modified": "Mon, 15 Dec 2025 15:09:40 GMT",
+        "x-amz-replication-status": "COMPLETED",
+        "cache-control": "public, max-age=94608000, s-maxage=94608000",
+        "via": "1.1 7f4e50618eb9eb45543daac57a9bf4a2.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd8faf6c75a4-DEL",
+        "access-control-allow-origin": "*",
+        "x-amz-cf-pop": "MRS53-P5",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://imgs.crazygames.com/mx-offroad-master_16x9/20260220035406/mx-offroad-master_16x9-cover?metadata=none&quality=85&width=273&fit=crop&dpr=1",
+      "status": 200,
+      "mime": "image/avif",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "etag": "\"cfYg797t0o60Snhf2g83ytVYyYaTD3QPY8g6IOu_NcDQ:972f50fd3c9ca4bf9c44423edb7daa70\"",
+        "age": "366155",
+        "cf-resized": "internal=ok/h q=0 n=17+98 c=0+0 v=2026.4.2 l=17928 f=false",
+        "x-content-type-options": "nosniff",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "image/avif",
+        "last-modified": "Fri, 20 Feb 2026 03:54:07 GMT",
+        "vary": "Accept",
+        "content-security-policy": "default-src 'none'; navigate-to 'none'; form-action 'none'; img-src data:; style-src 'unsafe-inline';",
+        "cache-control": "public, max-age=94608000, s-maxage=94608000",
+        "via": "1.1 c4790750ed00379015e6b05834a8b744.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd973f8ef4fe-DEL",
+        "accept-ranges": "bytes",
+        "content-length": "17928",
+        "server": "cloudflare"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://imgs.crazygames.com/real-car-driving_16x9/20260508041520/real-car-driving_16x9-cover?metadata=none&quality=85&width=273&fit=crop&dpr=1",
+      "status": 200,
+      "mime": "image/avif",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "etag": "\"cf20STUkPT15zJuW4dz_pD232BaTD3QPY8g6IOu_NcDQ:308ab3e5ec807b01d9355ef978f71608\"",
+        "age": "2024253",
+        "cf-resized": "internal=ok/h q=0 n=35+77 c=0+0 v=2026.6.3 l=12889 f=false",
+        "x-content-type-options": "nosniff",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "image/avif",
+        "last-modified": "Fri, 08 May 2026 04:15:21 GMT",
+        "vary": "Accept",
+        "content-security-policy": "default-src 'none'; navigate-to 'none'; form-action 'none'; img-src data:; style-src 'unsafe-inline';",
+        "cache-control": "public, max-age=94608000, s-maxage=94608000",
+        "via": "1.1 c4790750ed00379015e6b05834a8b744.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd973f94f4fe-DEL",
+        "accept-ranges": "bytes",
+        "content-length": "12889",
+        "server": "cloudflare"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://imgs.crazygames.com/space-waves_16x9/20260330040751/space-waves_16x9-cover?metadata=none&quality=85&width=273&fit=crop&dpr=1",
+      "status": 200,
+      "mime": "image/avif",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "etag": "\"cfHf26trorjLWIWV3TfVo5UY5DaTD3QPY8g6IOu_NcDQ:28ddd7c2a764bb1f1ca772e277149eaa\"",
+        "age": "1865297",
+        "cf-resized": "internal=ok/h q=0 n=21+51 c=0+0 v=2026.6.6 l=8965 f=false",
+        "x-content-type-options": "nosniff",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "image/avif",
+        "last-modified": "Mon, 30 Mar 2026 04:07:52 GMT",
+        "vary": "Accept",
+        "content-security-policy": "default-src 'none'; navigate-to 'none'; form-action 'none'; img-src data:; style-src 'unsafe-inline';",
+        "cache-control": "public, max-age=94608000, s-maxage=94608000",
+        "via": "1.1 a3564065d04a99563dcd4a6d7f2563d2.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd973f89f4fe-DEL",
+        "accept-ranges": "bytes",
+        "content-length": "8965",
+        "server": "cloudflare"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://imgs.crazygames.com/count-masters-stickman-games_16x9/20260318145715/count-masters-stickman-games_16x9-cover?metadata=none&quality=85&width=273&fit=crop&dpr=1",
+      "status": 200,
+      "mime": "image/avif",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "etag": "\"cffjQ3VhxAIZTsLWpHpsk_bu7naTD3QPY8g6IOu_NcDQ:b002cb7f7d438e889992f1be03a42beb\"",
+        "age": "3639611",
+        "cf-resized": "internal=ok/h q=0 n=15+64 c=0+0 v=2026.6.0 l=6279 f=false",
+        "x-content-type-options": "nosniff",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "image/avif",
+        "last-modified": "Wed, 18 Mar 2026 14:57:16 GMT",
+        "vary": "Accept",
+        "content-security-policy": "default-src 'none'; navigate-to 'none'; form-action 'none'; img-src data:; style-src 'unsafe-inline';",
+        "cache-control": "public, max-age=94608000, s-maxage=94608000",
+        "via": "1.1 8f0e15db6552eb8f57b9e13cb867b4a2.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd973f9ef4fe-DEL",
+        "accept-ranges": "bytes",
+        "content-length": "6279",
+        "server": "cloudflare"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://imgs.crazygames.com/traffic-rider-vvq_16x9/20250526021507/traffic-rider-vvq_16x9-cover?metadata=none&quality=85&width=273&fit=crop&dpr=1",
+      "status": 200,
+      "mime": "image/avif",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "etag": "\"cfcHn5nI3LzhBYo6fr-WDj0B1waTD3QPY8g6IOu_NcDQ:28f35082a17fe353978422a6f78e72ca\"",
+        "age": "279264",
+        "cf-resized": "internal=ok/h q=0 n=18+103 c=0+0 v=2026.6.5 l=9253 f=false",
+        "x-content-type-options": "nosniff",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "image/avif",
+        "last-modified": "Mon, 26 May 2025 02:15:08 GMT",
+        "vary": "Accept",
+        "content-security-policy": "default-src 'none'; navigate-to 'none'; form-action 'none'; img-src data:; style-src 'unsafe-inline';",
+        "cache-control": "public, max-age=94608000, s-maxage=94608000",
+        "via": "1.1 3a19b902285148c2a53af8571832b7a4.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd973f84f4fe-DEL",
+        "accept-ranges": "bytes",
+        "content-length": "9253",
+        "server": "cloudflare"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://imgs.crazygames.com/fragen_16x9/20251022094210/fragen_16x9-cover?metadata=none&quality=85&width=273&fit=crop&dpr=1",
+      "status": 200,
+      "mime": "image/avif",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "etag": "\"cf1xjuHa0VFTTjgCnz1b4mEKQnaTD3QPY8g6IOu_NcDQ:ffa634a9b67018b0508c04ac8dede71d\"",
+        "age": "295696",
+        "cf-resized": "internal=ok/h q=0 n=23+64 c=0+0 v=2026.6.0 l=7147 f=false",
+        "x-content-type-options": "nosniff",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "image/avif",
+        "last-modified": "Wed, 22 Oct 2025 09:42:11 GMT",
+        "vary": "Accept",
+        "content-security-policy": "default-src 'none'; navigate-to 'none'; form-action 'none'; img-src data:; style-src 'unsafe-inline';",
+        "cache-control": "public, max-age=94608000, s-maxage=94608000",
+        "via": "1.1 b17cf9f4b1a924d2565eea6067d2d532.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd973f98f4fe-DEL",
+        "accept-ranges": "bytes",
+        "content-length": "7147",
+        "server": "cloudflare"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://imgs.crazygames.com/bloxdhop-io_16x9/20250829023851/bloxdhop-io_16x9-cover?metadata=none&quality=85&width=273&fit=crop&dpr=1",
+      "status": 200,
+      "mime": "image/avif",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "etag": "\"cfJb3hJCy_z8Ch9R1mc7tFB-PYaTD3QPY8g6IOu_NcDQ:b7d08c8821c1b068bfeb0576e7a90285\"",
+        "age": "2862249",
+        "cf-resized": "internal=ok/h q=0 n=25+63 c=0+0 v=2026.6.3 l=10580 f=false",
+        "x-content-type-options": "nosniff",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "image/avif",
+        "last-modified": "Fri, 29 Aug 2025 02:38:52 GMT",
+        "vary": "Accept",
+        "content-security-policy": "default-src 'none'; navigate-to 'none'; form-action 'none'; img-src data:; style-src 'unsafe-inline';",
+        "cache-control": "public, max-age=94608000, s-maxage=94608000",
+        "via": "1.1 e122bd340e28aae4d559690a517da424.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd973f91f4fe-DEL",
+        "accept-ranges": "bytes",
+        "content-length": "10580",
+        "server": "cloudflare"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://imgs.crazygames.com/deadly-descent-bzs_16x9/20250818071829/deadly-descent-bzs_16x9-cover?metadata=none&quality=85&width=273&fit=crop&dpr=1",
+      "status": 200,
+      "mime": "image/avif",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "etag": "\"cfTDM1a79yfT2Vnz3B6jgBVRqEaTD3QPY8g6IOu_NcDQ:bfb586a9696e6a2fd53c3ff31f11f9df\"",
+        "age": "2784193",
+        "cf-resized": "internal=ok/h q=0 n=20+87 c=0+0 v=2026.6.5 l=12558 f=false",
+        "x-content-type-options": "nosniff",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "image/avif",
+        "last-modified": "Mon, 18 Aug 2025 07:18:30 GMT",
+        "vary": "Accept",
+        "content-security-policy": "default-src 'none'; navigate-to 'none'; form-action 'none'; img-src data:; style-src 'unsafe-inline';",
+        "cache-control": "public, max-age=94608000, s-maxage=94608000",
+        "via": "1.1 75f9c42e46cc7808149ec8718372e67a.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd973f9df4fe-DEL",
+        "accept-ranges": "bytes",
+        "content-length": "12558",
+        "server": "cloudflare"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://imgs.crazygames.com/rally-racer-dirt_16x9/20260220034629/rally-racer-dirt_16x9-cover?metadata=none&quality=85&width=273&fit=crop&dpr=1",
+      "status": 200,
+      "mime": "image/avif",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "etag": "\"cfd26or_WPGLrPFWlsTf8cgL55aTD3QPY8g6IOu_NcDQ:0efaaf8314046b7761c590f8761df6e4\"",
+        "age": "1865437",
+        "cf-resized": "internal=ok/h q=0 n=22+83 c=0+0 v=2026.5.2 l=8247 f=false",
+        "x-content-type-options": "nosniff",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "image/avif",
+        "last-modified": "Fri, 20 Feb 2026 03:46:30 GMT",
+        "vary": "Accept",
+        "content-security-policy": "default-src 'none'; navigate-to 'none'; form-action 'none'; img-src data:; style-src 'unsafe-inline';",
+        "cache-control": "public, max-age=94608000, s-maxage=94608000",
+        "via": "1.1 220c160e931ebb2d210c2607f9dec102.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd973f8bf4fe-DEL",
+        "accept-ranges": "bytes",
+        "content-length": "8247",
+        "server": "cloudflare"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://imgs.crazygames.com/super-star-car_16x9/20260318150415/super-star-car_16x9-cover?metadata=none&quality=85&width=273&fit=crop&dpr=1",
+      "status": 200,
+      "mime": "image/avif",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "etag": "\"cfPW1C_4QQ2ewstrahyNF6vOORaTD3QPY8g6IOu_NcDQ:81119b0473b30d4760c3ee5c3f1379b0\"",
+        "age": "2468071",
+        "cf-resized": "internal=ok/h q=0 n=20+126 c=0+0 v=2026.4.4 l=10175 f=false",
+        "x-content-type-options": "nosniff",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "image/avif",
+        "last-modified": "Wed, 18 Mar 2026 15:04:16 GMT",
+        "vary": "Accept",
+        "content-security-policy": "default-src 'none'; navigate-to 'none'; form-action 'none'; img-src data:; style-src 'unsafe-inline';",
+        "cache-control": "public, max-age=94608000, s-maxage=94608000",
+        "via": "1.1 5fe2da41cd75eab6975741ba54093788.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd973f9af4fe-DEL",
+        "accept-ranges": "bytes",
+        "content-length": "10175",
+        "server": "cloudflare"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://imgs.crazygames.com/ramp-car-vs-police-chase-psm_16x9/20260603031406/ramp-car-vs-police-chase-psm_16x9-cover?metadata=none&quality=85&width=273&fit=crop&dpr=1",
+      "status": 200,
+      "mime": "image/avif",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "etag": "\"cfZaz1CQruHnArHy4CAu7zpvakaTD3QPY8g6IOu_NcDQ:e267cf3551b584e10f5256f8af81c6b5\"",
+        "age": "456796",
+        "cf-resized": "internal=ok/h q=0 n=19+108 c=0+0 v=2026.7.0 l=11076 f=false",
+        "x-content-type-options": "nosniff",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "image/avif",
+        "last-modified": "Wed, 03 Jun 2026 03:14:07 GMT",
+        "vary": "Accept",
+        "content-security-policy": "default-src 'none'; navigate-to 'none'; form-action 'none'; img-src data:; style-src 'unsafe-inline';",
+        "cache-control": "public, max-age=94608000, s-maxage=94608000",
+        "via": "1.1 220c160e931ebb2d210c2607f9dec102.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd974fabf4fe-DEL",
+        "accept-ranges": "bytes",
+        "content-length": "11076",
+        "server": "cloudflare"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://imgs.crazygames.com/veck-io_16x9/20251204101357/veck-io_16x9-cover?metadata=none&quality=85&width=273&fit=crop&dpr=1",
+      "status": 200,
+      "mime": "image/avif",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "etag": "\"cfn9hgqbZHri01_5s50VWtGqUaaTD3QPY8g6IOu_NcDQ:ec8acd44c8bf637b1d63797af5549eb2\"",
+        "age": "369625",
+        "cf-resized": "internal=ok/h q=0 n=24+45 c=0+0 v=2026.6.3 l=9312 f=false",
+        "x-content-type-options": "nosniff",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "image/avif",
+        "last-modified": "Thu, 04 Dec 2025 10:13:58 GMT",
+        "vary": "Accept",
+        "content-security-policy": "default-src 'none'; navigate-to 'none'; form-action 'none'; img-src data:; style-src 'unsafe-inline';",
+        "cache-control": "public, max-age=94608000, s-maxage=94608000",
+        "via": "1.1 51558f6fe2008ca2f6e35260130d1f5a.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd974fb3f4fe-DEL",
+        "accept-ranges": "bytes",
+        "content-length": "9312",
+        "server": "cloudflare"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://imgs.crazygames.com/driving-school-simulator_16x9/20260401025700/driving-school-simulator_16x9-cover?metadata=none&quality=85&width=273&fit=crop&dpr=1",
+      "status": 200,
+      "mime": "image/avif",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "etag": "\"cf5x8Yjk9me7ge_09gZzLjp8hCaTD3QPY8g6IOu_NcDQ:8a7267d4a4672ba394a3397a9e00a302\"",
+        "age": "3639611",
+        "cf-resized": "internal=ok/h q=0 n=57+98 c=0+0 v=2026.6.0 l=10416 f=false",
+        "x-content-type-options": "nosniff",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "image/avif",
+        "last-modified": "Wed, 01 Apr 2026 02:57:01 GMT",
+        "vary": "Accept",
+        "content-security-policy": "default-src 'none'; navigate-to 'none'; form-action 'none'; img-src data:; style-src 'unsafe-inline';",
+        "cache-control": "public, max-age=94608000, s-maxage=94608000",
+        "via": "1.1 5ba460dc37bce9dc793ff5d4a2fbcb06.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd974fadf4fe-DEL",
+        "accept-ranges": "bytes",
+        "content-length": "10416",
+        "server": "cloudflare"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://imgs.crazygames.com/night-city-racing_16x9/20260220035423/night-city-racing_16x9-cover?metadata=none&quality=85&width=273&fit=crop&dpr=1",
+      "status": 200,
+      "mime": "image/avif",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "etag": "\"cfuzhevaZ3yH4N0vqMdMSzfzl3aTD3QPY8g6IOu_NcDQ:f404c6b5c70cd0ad4011471b1f48bac5\"",
+        "age": "3639617",
+        "cf-resized": "internal=ok/h q=0 n=21+118 c=0+0 v=2026.5.4 l=15194 f=false",
+        "x-content-type-options": "nosniff",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "image/avif",
+        "last-modified": "Fri, 20 Feb 2026 03:54:24 GMT",
+        "vary": "Accept",
+        "content-security-policy": "default-src 'none'; navigate-to 'none'; form-action 'none'; img-src data:; style-src 'unsafe-inline';",
+        "cache-control": "public, max-age=94608000, s-maxage=94608000",
+        "via": "1.1 62133de210e7126dcf7c7e55389bfa22.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd974fc9f4fe-DEL",
+        "accept-ranges": "bytes",
+        "content-length": "15194",
+        "server": "cloudflare"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://imgs.crazygames.com/dig-out-of-prison_16x9/20251229103900/dig-out-of-prison_16x9-cover?metadata=none&quality=85&width=273&fit=crop&dpr=1",
+      "status": 200,
+      "mime": "image/avif",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "etag": "\"cfmPtCklUqSicDOaj7MS8M5BsXaTD3QPY8g6IOu_NcDQ:57357b8481d96b27d9a6e183099fafc3\"",
+        "age": "3471816",
+        "cf-resized": "internal=ok/h q=0 n=20+57 c=0+0 v=2026.3.3 l=9557 f=false",
+        "x-content-type-options": "nosniff",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "image/avif",
+        "last-modified": "Mon, 29 Dec 2025 10:39:01 GMT",
+        "vary": "Accept",
+        "content-security-policy": "default-src 'none'; navigate-to 'none'; form-action 'none'; img-src data:; style-src 'unsafe-inline';",
+        "cache-control": "public, max-age=94608000, s-maxage=94608000",
+        "via": "1.1 3799516d704a83279637ec65e07bafd6.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd974fcdf4fe-DEL",
+        "accept-ranges": "bytes",
+        "content-length": "9557",
+        "server": "cloudflare"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://imgs.crazygames.com/city-bus-driver_16x9/20240318045942/city-bus-driver_16x9-cover?metadata=none&quality=85&width=273&fit=crop&dpr=1",
+      "status": 200,
+      "mime": "image/avif",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "etag": "\"cf1ge_BQYFNobI1xO94s6urAjWaTD3QPY8g6IOu_NcDQ:1238026bc4c5973de7ed522a73aba543\"",
+        "age": "2485470",
+        "cf-resized": "internal=ok/h q=0 n=20+90 c=0+0 v=2026.6.0 l=10542 f=false",
+        "x-content-type-options": "nosniff",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "image/avif",
+        "last-modified": "Mon, 18 Mar 2024 04:59:43 GMT",
+        "vary": "Accept",
+        "content-security-policy": "default-src 'none'; navigate-to 'none'; form-action 'none'; img-src data:; style-src 'unsafe-inline';",
+        "cache-control": "public, max-age=94608000, s-maxage=94608000",
+        "via": "1.1 6cf4a81d176cbce48cca9985e8ca1356.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd974fcef4fe-DEL",
+        "accept-ranges": "bytes",
+        "content-length": "10542",
+        "server": "cloudflare"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://imgs.crazygames.com/fighter-aircraft-pilot_16x9/20260206111508/fighter-aircraft-pilot_16x9-cover?metadata=none&quality=85&width=273&fit=crop&dpr=1",
+      "status": 200,
+      "mime": "image/avif",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "etag": "\"cfBLlb1s_6nVjGkyahpsvRf6T3aTD3QPY8g6IOu_NcDQ:63c647c75ee9b2c78a987f45d5de9580\"",
+        "age": "1872518",
+        "cf-resized": "internal=ok/h q=0 n=18+63 c=0+0 v=2026.2.8 l=9534 f=false",
+        "x-content-type-options": "nosniff",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "image/avif",
+        "last-modified": "Fri, 06 Feb 2026 11:15:09 GMT",
+        "vary": "Accept",
+        "content-security-policy": "default-src 'none'; navigate-to 'none'; form-action 'none'; img-src data:;",
+        "cache-control": "public, max-age=94608000, s-maxage=94608000",
+        "via": "1.1 d9636724d333576f23b5fcfb40d7830c.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd975ff4f4fe-DEL",
+        "accept-ranges": "bytes",
+        "content-length": "9534",
+        "server": "cloudflare"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://imgs.crazygames.com/hazmob-fps-online-shooter_16x9/20260302022643/hazmob-fps-online-shooter_16x9-cover?metadata=none&quality=85&width=273&fit=crop&dpr=1",
+      "status": 200,
+      "mime": "image/avif",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "etag": "\"cfIaxz7rRy99IVGOpd7d5wfQ2taTD3QPY8g6IOu_NcDQ:b7569228b495d00531cab5b3fb5a1666\"",
+        "age": "95136",
+        "cf-resized": "internal=ok/h q=0 n=27+40 c=0+0 v=2026.4.7 l=10638 f=false",
+        "x-content-type-options": "nosniff",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "image/avif",
+        "last-modified": "Mon, 02 Mar 2026 02:26:44 GMT",
+        "vary": "Accept",
+        "content-security-policy": "default-src 'none'; navigate-to 'none'; form-action 'none'; img-src data:; style-src 'unsafe-inline';",
+        "cache-control": "public, max-age=94608000, s-maxage=94608000",
+        "via": "1.1 0a9fd9b1edd4fcf9c2536f0010f33152.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd97580cf4fe-DEL",
+        "accept-ranges": "bytes",
+        "content-length": "10638",
+        "server": "cloudflare"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://imgs.crazygames.com/drive-quest---car-game_16x9/20260318150102/drive-quest---car-game_16x9-cover?metadata=none&quality=85&width=273&fit=crop&dpr=1",
+      "status": 200,
+      "mime": "image/avif",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "etag": "\"cf_d7G6lV2BmPdafqPoUghBh7OaTD3QPY8g6IOu_NcDQ:fe03bb3d6e84047d0bafb2adade57ec0\"",
+        "age": "2484607",
+        "cf-resized": "internal=ok/h q=0 n=21+59 c=0+0 v=2026.5.2 l=10722 f=false",
+        "x-content-type-options": "nosniff",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "image/avif",
+        "last-modified": "Wed, 18 Mar 2026 15:01:03 GMT",
+        "vary": "Accept",
+        "content-security-policy": "default-src 'none'; navigate-to 'none'; form-action 'none'; img-src data:; style-src 'unsafe-inline';",
+        "cache-control": "public, max-age=94608000, s-maxage=94608000",
+        "via": "1.1 1e4268eb96b3d6ef4b824c97a971a18e.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd97580af4fe-DEL",
+        "accept-ranges": "bytes",
+        "content-length": "10722",
+        "server": "cloudflare"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://imgs.crazygames.com/truck-simulator-european-roads_16x9/20260406091753/truck-simulator-european-roads_16x9-cover?metadata=none&quality=85&width=273&fit=crop&dpr=1",
+      "status": 200,
+      "mime": "image/avif",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "etag": "\"cf9YoRxVPHQx84p7u1iwh-_GN2aTD3QPY8g6IOu_NcDQ:ac384a1c5b5f7e7e7bc0d993ec98035a\"",
+        "age": "1705521",
+        "cf-resized": "internal=ok/h q=0 n=16+65 c=0+0 v=2026.7.0 l=10056 f=false",
+        "x-content-type-options": "nosniff",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "image/avif",
+        "last-modified": "Mon, 06 Apr 2026 09:17:54 GMT",
+        "vary": "Accept",
+        "content-security-policy": "default-src 'none'; navigate-to 'none'; form-action 'none'; img-src data:; style-src 'unsafe-inline';",
+        "cache-control": "public, max-age=94608000, s-maxage=94608000",
+        "via": "1.1 40488a658ab1cb9abab37a4144b9a8d6.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd975805f4fe-DEL",
+        "accept-ranges": "bytes",
+        "content-length": "10056",
+        "server": "cloudflare"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://imgs.crazygames.com/ragdoll-archers_16x9/20250926080758/ragdoll-archers_16x9-cover?metadata=none&quality=85&width=273&fit=crop&dpr=1",
+      "status": 200,
+      "mime": "image/avif",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "etag": "\"cfSIyi8kB5kzimgGDmTTkAgCuPaTD3QPY8g6IOu_NcDQ:5902e319e04f8a9667842ae309b8c378\"",
+        "age": "3639614",
+        "cf-resized": "internal=ok/h q=0 n=26+94 c=0+0 v=2026.6.0 l=7499 f=false",
+        "x-content-type-options": "nosniff",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "image/avif",
+        "last-modified": "Fri, 26 Sep 2025 08:07:59 GMT",
+        "vary": "Accept",
+        "content-security-policy": "default-src 'none'; navigate-to 'none'; form-action 'none'; img-src data:; style-src 'unsafe-inline';",
+        "cache-control": "public, max-age=94608000, s-maxage=94608000",
+        "via": "1.1 640a856b566da74d5447e09aec6b699e.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd975ffbf4fe-DEL",
+        "accept-ranges": "bytes",
+        "content-length": "7499",
+        "server": "cloudflare"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://imgs.crazygames.com/bus-simulator-evo_16x9/20260317031203/bus-simulator-evo_16x9-cover?metadata=none&quality=85&width=273&fit=crop&dpr=1",
+      "status": 200,
+      "mime": "image/avif",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "etag": "\"cfPmRACosv44ZpavszNeAd6jGBaTD3QPY8g6IOu_NcDQ:2147936c6d170ba22bfe36d6481c162d\"",
+        "age": "3639617",
+        "cf-resized": "internal=ok/h q=0 n=22+45 c=0+0 v=2026.6.0 l=12059 f=false",
+        "x-content-type-options": "nosniff",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "image/avif",
+        "last-modified": "Tue, 17 Mar 2026 03:12:04 GMT",
+        "vary": "Accept",
+        "content-security-policy": "default-src 'none'; navigate-to 'none'; form-action 'none'; img-src data:; style-src 'unsafe-inline';",
+        "cache-control": "public, max-age=94608000, s-maxage=94608000",
+        "via": "1.1 e03c3b2e76c2e46cbc607e6b6a7c780a.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd975801f4fe-DEL",
+        "accept-ranges": "bytes",
+        "content-length": "12059",
+        "server": "cloudflare"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://imgs.crazygames.com/skillwarz_16x9/20260318145302/skillwarz_16x9-cover?metadata=none&quality=85&width=273&fit=crop&dpr=1",
+      "status": 200,
+      "mime": "image/avif",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "etag": "\"cfB3cS0eUGDIF6e-ecsvOnDhOGaTD3QPY8g6IOu_NcDQ:d72fd64428cd046b95a2ac5bc1b498b0\"",
+        "age": "173558",
+        "cf-resized": "internal=ok/h q=0 n=35+192 c=22+74 v=2026.3.3 l=8187 f=false c2=0",
+        "x-content-type-options": "nosniff",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "image/avif",
+        "last-modified": "Wed, 18 Mar 2026 14:53:03 GMT",
+        "vary": "Accept",
+        "content-security-policy": "default-src 'none'; navigate-to 'none'; form-action 'none'; img-src data:; style-src 'unsafe-inline';",
+        "cache-control": "public, max-age=94608000, s-maxage=94608000",
+        "via": "1.1 6d41eeca63bed35669a220577ea55004.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd976838f4fe-DEL",
+        "accept-ranges": "bytes",
+        "content-length": "8187",
+        "server": "cloudflare"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://imgs.crazygames.com/racing-in-city_16x9/20231006103935/racing-in-city_16x9-cover?metadata=none&quality=85&width=273&fit=crop&dpr=1",
+      "status": 200,
+      "mime": "image/avif",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "etag": "\"cf2iB-rrcy4tj-P31WIVBlGyZdaTD3QPY8g6IOu_NcDQ:e040e859f1840660db0e650ede8ffa94\"",
+        "age": "1781462",
+        "cf-resized": "internal=ok/h q=0 n=16+45 c=0+0 v=2026.3.3 l=9028 f=false",
+        "x-content-type-options": "nosniff",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "image/avif",
+        "last-modified": "Fri, 06 Oct 2023 10:39:36 GMT",
+        "vary": "Accept",
+        "content-security-policy": "default-src 'none'; navigate-to 'none'; form-action 'none'; img-src data:; style-src 'unsafe-inline';",
+        "cache-control": "public, max-age=94608000, s-maxage=94608000",
+        "via": "1.1 4b1f4924635490ef02363a94e12f6d3c.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd97683af4fe-DEL",
+        "accept-ranges": "bytes",
+        "content-length": "9028",
+        "server": "cloudflare"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://builds.crazygames.com/portal-web/_next/static/css/a0eda7e7516fcd5d.css",
+      "status": 200,
+      "mime": "text/css",
+      "headers": {
+        "access-control-max-age": "3000",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "\"2c817b17af68e229da4f73b3ff1b5d56\"",
+        "age": "622177",
+        "access-control-allow-methods": "GET, HEAD",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "h4TqGzZ1tDxfe_KucwTZBpFJIzYgMwq5TyVSSXHyJ_p6AvL4MGztKg==",
+        "date": "Mon, 27 Jul 2026 15:50:57 GMT",
+        "content-type": "text/css",
+        "vary": "Origin,Access-Control-Request-Headers,Access-Control-Request-Method, accept-encoding",
+        "last-modified": "Mon, 20 Jul 2026 10:52:28 GMT",
+        "cache-control": "public,max-age=31536000,immutable,no-transform",
+        "access-control-allow-credentials": "true",
+        "via": "1.1 c72e48ed2f0a994f695ca2fb4bc9247e.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd81ee6229fd-DEL",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "https://www.crazygames.com",
+        "content-length": "7688",
+        "x-amz-cf-pop": "SEA900-P9",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Fetch"
+    },
+    {
+      "url": "https://builds.crazygames.com/portal-web/_next/static/css/fdd34325fe8473d9.css",
+      "status": 200,
+      "mime": "text/css",
+      "headers": {
+        "access-control-max-age": "3000",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "\"a9d6b32db873bb1e9b35d8c0cc29b783\"",
+        "age": "622177",
+        "access-control-allow-methods": "GET, HEAD",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "wNZrD2FIamcYCl6XLUmNWsCB1WbG15NDeo9FhXUVx1OcVZefXFfPOg==",
+        "date": "Mon, 27 Jul 2026 15:50:57 GMT",
+        "content-type": "text/css",
+        "vary": "Origin,Access-Control-Request-Headers,Access-Control-Request-Method, accept-encoding",
+        "last-modified": "Mon, 20 Jul 2026 10:52:29 GMT",
+        "cache-control": "public,max-age=31536000,immutable,no-transform",
+        "access-control-allow-credentials": "true",
+        "via": "1.1 9f06b96b2cd5df2d049102beada56054.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd81ee6929fd-DEL",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "https://www.crazygames.com",
+        "content-length": "3120",
+        "x-amz-cf-pop": "TLV55-P2",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Fetch"
+    },
+    {
+      "url": "https://builds.crazygames.com/portal-web/_next/static/chunks/64054-4a21d9021a08eec7.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "headers": {
+        "access-control-max-age": "3000",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "\"2f156f41f4d2335ff6bffd82680bfc48\"",
+        "age": "622175",
+        "access-control-allow-methods": "GET, HEAD",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "TCV1gHmi5ajt4ONRR1wOyjziJfCQEmVvwgEjvLUa9OPbmjS34Uw0Xw==",
+        "date": "Mon, 27 Jul 2026 15:50:58 GMT",
+        "content-type": "application/javascript",
+        "vary": "Origin,Access-Control-Request-Headers,Access-Control-Request-Method, accept-encoding",
+        "last-modified": "Mon, 20 Jul 2026 10:52:27 GMT",
+        "cache-control": "public,max-age=31536000,immutable,no-transform",
+        "access-control-allow-credentials": "true",
+        "via": "1.1 88cc40ee396aa5b3bdbca8f793d36378.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd86e93229fd-DEL",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "https://www.crazygames.com",
+        "content-length": "3387",
+        "x-amz-cf-pop": "TLV55-P2",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Script"
+    },
+    {
+      "url": "https://builds.crazygames.com/portal-web/_next/static/chunks/4656-3851e2b3bc3c88fe.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "headers": {
+        "access-control-max-age": "3000",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "\"45a3605b520d27a55208bf54769ee56f\"",
+        "age": "622175",
+        "access-control-allow-methods": "GET, HEAD",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "7kWCHV39SZ-Z9sZraJlHiXaZqdMCoG3axm3sSwfgYb7z2TRH-GlaMg==",
+        "date": "Mon, 27 Jul 2026 15:50:58 GMT",
+        "content-type": "application/javascript",
+        "vary": "Origin,Access-Control-Request-Headers,Access-Control-Request-Method, accept-encoding",
+        "last-modified": "Mon, 20 Jul 2026 10:52:26 GMT",
+        "cache-control": "public,max-age=31536000,immutable,no-transform",
+        "access-control-allow-credentials": "true",
+        "via": "1.1 8fd1d363d0042ae1ee37cd2146b6ea62.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd86e93829fd-DEL",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "https://www.crazygames.com",
+        "content-length": "2967",
+        "x-amz-cf-pop": "TLV55-P2",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Script"
+    },
+    {
+      "url": "https://builds.crazygames.com/portal-web/_next/static/chunks/70993-cdaad15ab151bb92.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "headers": {
+        "access-control-max-age": "3000",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "\"6cec4be9179cf821dba674088e123542\"",
+        "age": "622176",
+        "access-control-allow-methods": "GET, HEAD",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "k5Z-6-BMK83PbHUbwiMUo5798NGoyTn9FXoOFo5xaIT1tYoTtfAr7g==",
+        "date": "Mon, 27 Jul 2026 15:50:58 GMT",
+        "content-type": "application/javascript",
+        "vary": "Origin,Access-Control-Request-Headers,Access-Control-Request-Method, accept-encoding",
+        "last-modified": "Mon, 20 Jul 2026 10:52:27 GMT",
+        "cache-control": "public,max-age=31536000,immutable,no-transform",
+        "access-control-allow-credentials": "true",
+        "via": "1.1 55a62c25b77c24cde4014f567fd1c550.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd86e94229fd-DEL",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "https://www.crazygames.com",
+        "content-length": "4830",
+        "x-amz-cf-pop": "SEA900-P9",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Script"
+    },
+    {
+      "url": "https://builds.crazygames.com/portal-web/_next/static/chunks/17424-ad7ff48aa2dd74be.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "headers": {
+        "access-control-max-age": "3000",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "\"cced5b77cbeca57abd0a2639e2a30ab6\"",
+        "age": "1826500",
+        "access-control-allow-methods": "GET, HEAD",
+        "x-cache": "Hit from cloudfront",
+        "x-amz-cf-id": "7oxmhaQIt8Z-D0tg9Lzi8MrlDDsumN84w31wHyJYtmJ7EGBsBh6kWw==",
+        "date": "Mon, 27 Jul 2026 15:50:58 GMT",
+        "content-type": "application/javascript",
+        "vary": "Origin,Access-Control-Request-Headers,Access-Control-Request-Method, accept-encoding",
+        "last-modified": "Mon, 06 Jul 2026 12:19:39 GMT",
+        "cache-control": "public,max-age=31536000,immutable,no-transform",
+        "access-control-allow-credentials": "true",
+        "via": "1.1 4b9f442ba57b015b2ca535b87fa8590a.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd86e93d29fd-DEL",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "https://www.crazygames.com",
+        "content-length": "2646",
+        "x-amz-cf-pop": "TLV55-P2",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Script"
+    },
+    {
+      "url": "https://builds.crazygames.com/portal-web/_next/static/chunks/3010.d1d8a5cf9b5d60c1.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "headers": {
+        "access-control-max-age": "3000",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "\"049ba3a12b5683e07053a75deb1fe9b9\"",
+        "age": "622179",
+        "access-control-allow-methods": "GET, HEAD",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "l1sN3fOA5IZttnwwi521usHQogS7Kf7zWpi_IV9s8MeLVmT1-6c5AA==",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "application/javascript",
+        "vary": "Origin,Access-Control-Request-Headers,Access-Control-Request-Method, accept-encoding",
+        "last-modified": "Mon, 20 Jul 2026 10:52:26 GMT",
+        "cache-control": "public,max-age=31536000,immutable,no-transform",
+        "access-control-allow-credentials": "true",
+        "via": "1.1 b3a8bdee20374465a3f2aa64f19ec30e.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd9768a829fd-DEL",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "https://www.crazygames.com",
+        "content-length": "331",
+        "x-amz-cf-pop": "SEA900-P9",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Script"
+    },
+    {
+      "url": "https://builds.crazygames.com/portal-web/_next/static/chunks/87542.08abfca93734951f.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "headers": {
+        "access-control-max-age": "3000",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "\"9ef2a14ae63dccd91e0547aaaa732679\"",
+        "age": "1826501",
+        "access-control-allow-methods": "GET, HEAD",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "mI4quAx2ileakevkpZvkG6d4bBEk_frtaJ4ANlCAjK4MI_jC9vt6dQ==",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "application/javascript",
+        "vary": "Origin,Access-Control-Request-Headers,Access-Control-Request-Method, accept-encoding",
+        "last-modified": "Mon, 06 Jul 2026 12:19:42 GMT",
+        "cache-control": "public,max-age=31536000,immutable,no-transform",
+        "access-control-allow-credentials": "true",
+        "via": "1.1 7aad92255c39d277bce3f20afa1b059c.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd9768b029fd-DEL",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "https://www.crazygames.com",
+        "content-length": "740",
+        "x-amz-cf-pop": "SEA900-P9",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Script"
+    },
+    {
+      "url": "https://builds.crazygames.com/portal-web/_next/static/chunks/78989.2f8a7456c49eb882.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "headers": {
+        "access-control-max-age": "3000",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "\"a0dc706996398ce1b2a7d658eadb31e0\"",
+        "age": "1826500",
+        "access-control-allow-methods": "GET, HEAD",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "55HYbeXVhgttrSg7ETbrQlGCC6DLF79jfbOhkziBMPPJNoJbMxJYgA==",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "application/javascript",
+        "vary": "Origin,Access-Control-Request-Headers,Access-Control-Request-Method, accept-encoding",
+        "last-modified": "Mon, 06 Jul 2026 12:19:41 GMT",
+        "cache-control": "public,max-age=31536000,immutable,no-transform",
+        "access-control-allow-credentials": "true",
+        "via": "1.1 ea33b0b5679140933330bed298bb260a.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd9768ad29fd-DEL",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "https://www.crazygames.com",
+        "content-length": "549",
+        "x-amz-cf-pop": "TLV55-P2",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Script"
+    },
+    {
+      "url": "https://builds.crazygames.com/portal-web/_next/static/chunks/60627-04c99272543ae43a.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "headers": {
+        "access-control-max-age": "3000",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "\"9d7154213a7694ad6724cce7be9238f5\"",
+        "age": "622068",
+        "access-control-allow-methods": "GET, HEAD",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "VGLSUBDsMPU5V6pKXKPQm668-2vjY4X1LwHcSmRZjoxp1BwH_CHKPQ==",
+        "date": "Mon, 27 Jul 2026 15:50:58 GMT",
+        "content-type": "application/javascript",
+        "vary": "Origin,Access-Control-Request-Headers,Access-Control-Request-Method, accept-encoding",
+        "last-modified": "Mon, 20 Jul 2026 10:52:26 GMT",
+        "cache-control": "public,max-age=31536000,immutable,no-transform",
+        "access-control-allow-credentials": "true",
+        "via": "1.1 8fd1d363d0042ae1ee37cd2146b6ea62.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd86e94429fd-DEL",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "https://www.crazygames.com",
+        "content-length": "3966",
+        "x-amz-cf-pop": "TLV55-P2",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Script"
+    },
+    {
+      "url": "https://builds.crazygames.com/portal-web/_next/static/chunks/pages/t/%5Btag%5D/%5B%5B...page%5D%5D-a6074ec64fb25e94.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "headers": {
+        "access-control-max-age": "3000",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "\"dc29f1df9adf30bee51bcf34552a6ee9\"",
+        "age": "622176",
+        "access-control-allow-methods": "GET, HEAD",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "xJ4QbS6EPcgBqURludLaRTmi5NhKgaERFwd-W2-ldYg0ddGwtq-EdA==",
+        "date": "Mon, 27 Jul 2026 15:50:58 GMT",
+        "content-type": "application/javascript",
+        "vary": "Origin,Access-Control-Request-Headers,Access-Control-Request-Method, accept-encoding",
+        "last-modified": "Mon, 20 Jul 2026 10:52:28 GMT",
+        "cache-control": "public,max-age=31536000,immutable,no-transform",
+        "access-control-allow-credentials": "true",
+        "via": "1.1 5af99d6f2fc1c569c253259aec683ee8.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd86e95029fd-DEL",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "https://www.crazygames.com",
+        "content-length": "1534",
+        "x-amz-cf-pop": "SEA900-P9",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Script"
+    },
+    {
+      "url": "https://builds.crazygames.com/portal-web/_next/static/css/d32c47dde8b9e3e5.css",
+      "status": 200,
+      "mime": "text/css",
+      "headers": {
+        "access-control-max-age": "3000",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "\"940daed6ab0eee3f7ea8c039502945b7\"",
+        "age": "622178",
+        "access-control-allow-methods": "GET, HEAD",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "WXZnzsiPSPmmX_42g5Pd4WgqbqK5mMZ5_PzbyoVk_0MMwM1G1l9sjg==",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "text/css",
+        "vary": "Origin,Access-Control-Request-Headers,Access-Control-Request-Method, accept-encoding",
+        "last-modified": "Mon, 20 Jul 2026 10:52:28 GMT",
+        "cache-control": "public,max-age=31536000,immutable,no-transform",
+        "access-control-allow-credentials": "true",
+        "via": "1.1 01cd075c3be74b28d2ce41ae2935807c.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd97ca2629fd-DEL",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "https://www.crazygames.com",
+        "content-length": "2726",
+        "x-amz-cf-pop": "TLV55-P2",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Fetch"
+    },
+    {
+      "url": "https://builds.crazygames.com/portal-web/_next/static/chunks/pages/multiplayer/%5B%5B...page%5D%5D-bdcea959bc8690c7.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "headers": {
+        "access-control-max-age": "3000",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "\"08d757d515c452ff7f364f71ed899b29\"",
+        "age": "622169",
+        "access-control-allow-methods": "GET, HEAD",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "UJBzVf19w9vuV9O5FEm23ZzKBjvT5V_1mcASHK4bf15W0FiMQlUnkA==",
+        "date": "Mon, 27 Jul 2026 15:50:58 GMT",
+        "content-type": "application/javascript",
+        "vary": "Origin,Access-Control-Request-Headers,Access-Control-Request-Method, accept-encoding",
+        "last-modified": "Mon, 20 Jul 2026 10:52:28 GMT",
+        "cache-control": "public,max-age=31536000,immutable,no-transform",
+        "access-control-allow-credentials": "true",
+        "via": "1.1 7db525476c192850b65097a6bb612976.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd86e95529fd-DEL",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "https://www.crazygames.com",
+        "content-length": "6404",
+        "x-amz-cf-pop": "MRS52-P3",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Script"
+    },
+    {
+      "url": "https://builds.crazygames.com/portal-web/_next/static/chunks/pages/c/%5Btag%5D/%5B%5B...page%5D%5D-2348cce5187b21c6.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "headers": {
+        "access-control-max-age": "3000",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "\"e6942b05b7faffc1589b3decd2389856\"",
+        "age": "622175",
+        "access-control-allow-methods": "GET, HEAD",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "-KHDOppZkmLspdKXdm1Egqlo10dfFba6cy6RIOCLzDy0NQdLXG-0-A==",
+        "date": "Mon, 27 Jul 2026 15:50:58 GMT",
+        "content-type": "application/javascript",
+        "vary": "Origin,Access-Control-Request-Headers,Access-Control-Request-Method, accept-encoding",
+        "last-modified": "Mon, 20 Jul 2026 10:52:28 GMT",
+        "cache-control": "public,max-age=31536000,immutable,no-transform",
+        "access-control-allow-credentials": "true",
+        "via": "1.1 88cc40ee396aa5b3bdbca8f793d36378.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd86e94c29fd-DEL",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "https://www.crazygames.com",
+        "content-length": "1468",
+        "x-amz-cf-pop": "TLV55-P2",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Script"
+    },
+    {
+      "url": "https://builds.crazygames.com/portal-web/_next/static/chunks/pages/new/%5B%5B...page%5D%5D-796ecaaaaa4cd1af.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "headers": {
+        "access-control-max-age": "3000",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "\"f52ae3a6a392e2e1ab647d7c306e7460\"",
+        "age": "622176",
+        "access-control-allow-methods": "GET, HEAD",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "suIFQeZ493jqBhXs_s_G9zNq60YB-wtZ_mAWUeoXzc4hX88Izh7nJA==",
+        "date": "Mon, 27 Jul 2026 15:50:58 GMT",
+        "content-type": "application/javascript",
+        "vary": "Origin,Access-Control-Request-Headers,Access-Control-Request-Method, accept-encoding",
+        "last-modified": "Mon, 20 Jul 2026 10:52:28 GMT",
+        "cache-control": "public,max-age=31536000,immutable,no-transform",
+        "access-control-allow-credentials": "true",
+        "via": "1.1 d49bde7225e80ca0dc457ff2b8b4343e.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd86e96a29fd-DEL",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "https://www.crazygames.com",
+        "content-length": "1375",
+        "x-amz-cf-pop": "SEA900-P9",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Script"
+    },
+    {
+      "url": "https://builds.crazygames.com/portal-web/_next/static/chunks/67859-05a9779cc3829d49.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "headers": {
+        "access-control-max-age": "3000",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "\"cb65b11f61f234f39005eb3d5a9ce9f9\"",
+        "age": "622176",
+        "access-control-allow-methods": "GET, HEAD",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "48hsFTBwW2k79E0_YpxWjYrx7zevPlYIO1lYh3s8mgzf_FDEF2BkmQ==",
+        "date": "Mon, 27 Jul 2026 15:50:58 GMT",
+        "content-type": "application/javascript",
+        "vary": "Origin,Access-Control-Request-Headers,Access-Control-Request-Method, accept-encoding",
+        "last-modified": "Mon, 20 Jul 2026 10:52:27 GMT",
+        "cache-control": "public,max-age=31536000,immutable,no-transform",
+        "access-control-allow-credentials": "true",
+        "via": "1.1 1271197444822e7c59413a59ecbcecd6.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd86e96629fd-DEL",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "https://www.crazygames.com",
+        "content-length": "4356",
+        "x-amz-cf-pop": "SEA900-P9",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Script"
+    },
+    {
+      "url": "https://builds.crazygames.com/portal-web/_next/static/chunks/pages/hot/%5B%5B...page%5D%5D-d89e0393fe47a151.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "headers": {
+        "access-control-max-age": "3000",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "\"2891410ea191309203c74fa98b05ad91\"",
+        "age": "622175",
+        "access-control-allow-methods": "GET, HEAD",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "i1_l2wSwWQl6aJxvrsnBk_RefLXo-ykBTd6yr5iY2R8kxGuD2fzI7w==",
+        "date": "Mon, 27 Jul 2026 15:50:58 GMT",
+        "content-type": "application/javascript",
+        "vary": "Origin,Access-Control-Request-Headers,Access-Control-Request-Method, accept-encoding",
+        "last-modified": "Mon, 20 Jul 2026 10:52:28 GMT",
+        "cache-control": "public,max-age=31536000,immutable,no-transform",
+        "access-control-allow-credentials": "true",
+        "via": "1.1 e1fe49b00891928896b032264bed18e6.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd86e96f29fd-DEL",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "https://www.crazygames.com",
+        "content-length": "1376",
+        "x-amz-cf-pop": "TLV55-P2",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Script"
+    },
+    {
+      "url": "https://builds.crazygames.com/portal-web/_next/static/chunks/pages/index-ec16cbdb8d4bac86.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "headers": {
+        "access-control-max-age": "3000",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "\"21ea003b3fb64f31af747d0020d0dc55\"",
+        "age": "622175",
+        "access-control-allow-methods": "GET, HEAD",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "JNG7r-13V-gKSUOx3IEN67uZJnzlmenmOSttw6eI50mRNC1kUJaaAg==",
+        "date": "Mon, 27 Jul 2026 15:50:58 GMT",
+        "content-type": "application/javascript",
+        "vary": "Origin,Access-Control-Request-Headers,Access-Control-Request-Method, accept-encoding",
+        "last-modified": "Mon, 20 Jul 2026 10:52:28 GMT",
+        "cache-control": "public,max-age=31536000,immutable,no-transform",
+        "access-control-allow-credentials": "true",
+        "via": "1.1 b6f43470f71be755d78da082494ef65a.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd86e96029fd-DEL",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "https://www.crazygames.com",
+        "content-length": "22919",
+        "x-amz-cf-pop": "TLV55-P2",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Script"
+    },
+    {
+      "url": "https://fafvertizing.crazygames.com/v12.30/rafvertizing.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "headers": {
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "\"b3af2277cd72d4424be3ae2b64d56871\"",
+        "age": "3345",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "Welvaod7dbo6-Vo_CgTGjMw47MrwUA4WZEAuQykoM23DYVELmBSeUw==",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "application/javascript",
+        "vary": "accept-encoding",
+        "last-modified": "Mon, 20 Jul 2026 09:59:07 GMT",
+        "cache-control": "public, max-age=7200, immutable, no-transform",
+        "via": "1.1 fbd937dac380719c6e9a33905b034d74.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd97683bf4fe-DEL",
+        "accept-ranges": "bytes",
+        "content-length": "56698",
+        "x-amz-cf-pop": "LAX54-P6",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Script"
+    },
+    {
+      "url": "https://builds.crazygames.com/portal-web/_next/static/chunks/pages/updated/%5B%5B...page%5D%5D-f9cf8f449cefbd1e.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "headers": {
+        "access-control-max-age": "3000",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "\"9e1acf36c5d8036fd5278f34956bd064\"",
+        "age": "622176",
+        "access-control-allow-methods": "GET, HEAD",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "-oIoSqhRzC8zeM2I7cxUOvu2qhi9RIgm1uP5v7LZFSzDzdlyy-1vXQ==",
+        "date": "Mon, 27 Jul 2026 15:50:58 GMT",
+        "content-type": "application/javascript",
+        "vary": "Origin,Access-Control-Request-Headers,Access-Control-Request-Method, accept-encoding",
+        "last-modified": "Mon, 20 Jul 2026 10:52:28 GMT",
+        "cache-control": "public,max-age=31536000,immutable,no-transform",
+        "access-control-allow-credentials": "true",
+        "via": "1.1 28edb03169fa053a4a523d90d15ff6ae.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd86e97a29fd-DEL",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "https://www.crazygames.com",
+        "content-length": "1292",
+        "x-amz-cf-pop": "SEA900-P9",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Script"
+    },
+    {
+      "url": "https://builds.crazygames.com/portal-web/_next/static/css/804b961a6014f8a2.css",
+      "status": 200,
+      "mime": "text/css",
+      "headers": {
+        "access-control-max-age": "3000",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "\"a36f5edf822a743ae712c42522579f9b\"",
+        "age": "622179",
+        "access-control-allow-methods": "GET, HEAD",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "4APv97QTDXgh6ETkG4LF9FpJzYeJ85HjvxKzjVVHg2Q_dde87JQizw==",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "text/css",
+        "vary": "Origin,Access-Control-Request-Headers,Access-Control-Request-Method, accept-encoding",
+        "last-modified": "Mon, 20 Jul 2026 10:52:28 GMT",
+        "cache-control": "public,max-age=31536000,immutable,no-transform",
+        "access-control-allow-credentials": "true",
+        "via": "1.1 d49bde7225e80ca0dc457ff2b8b4343e.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd97eaa829fd-DEL",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "https://www.crazygames.com",
+        "content-length": "3206",
+        "x-amz-cf-pop": "SEA900-P9",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Fetch"
+    },
+    {
+      "url": "https://builds.crazygames.com/portal-web/_next/static/css/032e52a9102e1bc7.css",
+      "status": 200,
+      "mime": "text/css",
+      "headers": {
+        "access-control-expose-headers": "*",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "\"461a0971a2e10736447383868e26c60c\"",
+        "age": "4132711",
+        "x-cache": "Hit from cloudfront",
+        "x-amz-cf-id": "p5eDzueFGEyMzCtjkUHawFXhbI5WWPZR1LBSyrzwmVR-iQBDVYig5g==",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "text/css",
+        "last-modified": "Mon, 13 Oct 2025 11:26:27 GMT",
+        "vary": "accept-encoding",
+        "cache-control": "public,max-age=31536000,immutable,no-transform",
+        "via": "1.1 7d4502925a4a466598af9dc0cff9e994.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd97eab429fd-DEL",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-length": "4354",
+        "x-amz-cf-pop": "LHR62-C5",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Fetch"
+    },
+    {
+      "url": "https://builds.crazygames.com/portal-web/_next/static/css/ff75cc892af854e6.css",
+      "status": 200,
+      "mime": "text/css",
+      "headers": {
+        "access-control-max-age": "3000",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "\"dec2c2f35a50e4c168c08ca6dfa7823e\"",
+        "age": "622171",
+        "access-control-allow-methods": "GET, HEAD",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "zFJlEhxwtgdnCJRFZtgZR90_6J4MIueeTdeMEH_pFmBhA_qe1vgNsA==",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "text/css",
+        "vary": "Origin,Access-Control-Request-Headers,Access-Control-Request-Method, accept-encoding",
+        "last-modified": "Mon, 20 Jul 2026 10:52:29 GMT",
+        "cache-control": "public,max-age=31536000,immutable,no-transform",
+        "access-control-allow-credentials": "true",
+        "via": "1.1 90ad5abd11bb7875cfd006f072f42c66.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd97eab129fd-DEL",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "https://www.crazygames.com",
+        "content-length": "5340",
+        "x-amz-cf-pop": "MCI50-P2",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Fetch"
+    },
+    {
+      "url": "https://builds.crazygames.com/portal-web/_next/static/css/423d130d930a732f.css",
+      "status": 200,
+      "mime": "text/css",
+      "headers": {
+        "access-control-max-age": "3000",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "\"980e9a310e4674a7692f3249bc0740a9\"",
+        "age": "622178",
+        "access-control-allow-methods": "GET, HEAD",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "yIf9kf0MVtXI3is03dEwJeiWDFwMcgw7k3PNOZ1cs0Xn5We5nJ3SaQ==",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "text/css",
+        "vary": "Origin,Access-Control-Request-Headers,Access-Control-Request-Method, accept-encoding",
+        "last-modified": "Mon, 20 Jul 2026 10:52:28 GMT",
+        "cache-control": "public,max-age=31536000,immutable,no-transform",
+        "access-control-allow-credentials": "true",
+        "via": "1.1 60dd2df18d5f4942d921bc1436edd9be.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd97eaae29fd-DEL",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "https://www.crazygames.com",
+        "content-length": "1257",
+        "x-amz-cf-pop": "TLV55-P2",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Fetch"
+    },
+    {
+      "url": "https://builds.crazygames.com/portal-web/_next/static/css/559bd35f8e3ea113.css",
+      "status": 200,
+      "mime": "text/css",
+      "headers": {
+        "access-control-max-age": "3000",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "\"9e6da9bfb88e8596426995bb1e84d3ee\"",
+        "age": "622179",
+        "access-control-allow-methods": "GET, HEAD",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "M0i_LCw018KY_qRtZe04soXOvzYt1qwFuFGH54IxrMqOZKFSHoNSZA==",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "text/css",
+        "vary": "Origin,Access-Control-Request-Headers,Access-Control-Request-Method, accept-encoding",
+        "last-modified": "Mon, 20 Jul 2026 10:52:28 GMT",
+        "cache-control": "public,max-age=31536000,immutable,no-transform",
+        "access-control-allow-credentials": "true",
+        "via": "1.1 4c8322ac27bebc2a7e26f72c7b6ec2ee.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd97eabd29fd-DEL",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "https://www.crazygames.com",
+        "content-length": "2119",
+        "x-amz-cf-pop": "SEA900-P9",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Fetch"
+    },
+    {
+      "url": "https://builds.crazygames.com/portal-web/_next/static/css/9e1b147c4d3a3c87.css",
+      "status": 200,
+      "mime": "text/css",
+      "headers": {
+        "access-control-max-age": "3000",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "\"6b84c8085ab7cd5533a3bf5cab942876\"",
+        "age": "622178",
+        "access-control-allow-methods": "GET, HEAD",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "6iYAxc_C0CCCv7xeLzSdLgI15xAV-3JFfxZ-OJNxEpC6CE-YOStHNA==",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "text/css",
+        "vary": "Origin,Access-Control-Request-Headers,Access-Control-Request-Method, accept-encoding",
+        "last-modified": "Mon, 20 Jul 2026 10:52:28 GMT",
+        "cache-control": "public,max-age=31536000,immutable,no-transform",
+        "access-control-allow-credentials": "true",
+        "via": "1.1 0bdcfd9f373a3f6bd484d313c5922e84.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd97eab829fd-DEL",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "https://www.crazygames.com",
+        "content-length": "9267",
+        "x-amz-cf-pop": "TLV55-P2",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Fetch"
+    },
+    {
+      "url": "https://api.crazygames.com/v4/en_US/configv3?country=IN",
+      "status": 200,
+      "mime": "application/json",
+      "headers": {
+        "cache-control": "public, max-age=3600, stale-while-revalidate=600, stale-if-error=43200",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "W/\"360a-tiw3zzHOWvz+0LALmcrXkd7fqtQ\"",
+        "age": "655",
+        "cf-ray": "a21ccd99999829fd-DEL",
+        "access-control-allow-origin": "*",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "server": "cloudflare"
+      },
+      "type": "Fetch"
+    },
+    {
+      "url": "https://cza.crazygames.com/event",
+      "status": 204,
+      "mime": "text/plain",
+      "headers": {
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "access-control-allow-origin": "*"
+      },
+      "type": "Ping"
+    },
+    {
+      "url": "https://cza.crazygames.com/event",
+      "status": 204,
+      "mime": "text/plain",
+      "headers": {
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "access-control-allow-origin": "*"
+      },
+      "type": "Ping"
+    },
+    {
+      "url": "https://mafvertizing.crazygames.com/prebid.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "etag": "\"0f0193c792f430db6305b0c5d0364ef3\"",
+        "age": "3897165",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "5oRu03OombKNsICOIKcDogHMGTT-1rWvXI4RtJ6W32c_xABZ4CX6Ag==",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "application/javascript",
+        "last-modified": "Thu, 25 Sep 2025 08:12:31 GMT",
+        "cache-control": "public,max-age=31536000,immutable,no-transform",
+        "via": "1.1 2d5823309e361a0f51bf360f1762ffba.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd99cfecf4fe-DEL",
+        "accept-ranges": "bytes",
+        "content-length": "149",
+        "x-amz-cf-pop": "LHR5-P7",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Script"
+    },
+    {
+      "url": "https://fafvertizing.crazygames.com/v12.30/rafvertizing-prebid.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "headers": {
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "\"9971c483c3bba831fa388285e78a7cdf\"",
+        "age": "3468",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "yGzgDT6Vn0zXkGxyUPkOiW1XS_boTkE3kLIs19si8eWT-wzUHMfYgw==",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "content-type": "application/javascript",
+        "vary": "accept-encoding",
+        "last-modified": "Mon, 20 Jul 2026 09:59:04 GMT",
+        "cache-control": "public, max-age=7200, immutable, no-transform",
+        "via": "1.1 9989e61358a5ce40a78fc28d162f1cd4.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccd99af64f4fe-DEL",
+        "accept-ranges": "bytes",
+        "content-length": "166555",
+        "x-amz-cf-pop": "LAX54-P6",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Script"
+    },
+    {
+      "url": "https://cza.crazygames.com/event",
+      "status": 204,
+      "mime": "text/plain",
+      "headers": {
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "access-control-allow-origin": "*"
+      },
+      "type": "Ping"
+    },
+    {
+      "url": "https://idx.liadm.com/idex/prebid/84896?duid=0f1851717525--01kyj4bgn50xssrz9ajb9qg9wp&cd=.crazygames.com&pu=https%3A%2F%2Fwww.crazygames.com&resolve=nonId&resolve=uid2&resolve=pubmatic&resolve=magnite&resolve=index&resolve=sharethrough&resolve=thetradedesk&resolve=triplelift&resolve=medianet",
+      "status": 204,
+      "mime": "",
+      "headers": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "cache-control": "max-age=3599, private",
+        "trace-id": "d8988e1ba61c5c1c",
+        "request-time": "1",
+        "access-control-allow-credentials": "true",
+        "expires": "Mon, 27 Jul 2026 16:51:02 GMT",
+        "access-control-allow-origin": "https://www.crazygames.com",
+        "date": "Mon, 27 Jul 2026 15:51:02 GMT",
+        "vary": "Origin"
+      },
+      "type": "Fetch"
+    },
+    {
+      "url": "https://cm.g.doubleclick.net/partnerpixels?gdpr=0&url=https%3A%2F%2Fwww.crazygames.com%2Fgame%2Fracing-limits",
+      "status": 200,
+      "mime": "text/html",
+      "headers": {
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-encoding": "gzip",
+        "content-length": "48",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Mon, 27 Jul 2026 15:51:02 GMT",
+        "referrer-policy": "origin",
+        "server": "HTTP server (unknown)",
+        "x-xss-protection": "0"
+      },
+      "type": "Document"
+    },
+    {
+      "url": "https://gumi.criteo.com/syncframe?origin=publishertagids&topUrl=www.crazygames.com&gdpr=0&gdpr_consent=",
+      "status": 200,
+      "mime": "text/html",
+      "headers": {
+        "cache-control": "private, no-cache, max-age=0, must-revalidate",
+        "content-encoding": "gzip",
+        "content-type": "text/html; charset=utf-8",
+        "cross-origin-embedder-policy": "require-corp",
+        "cross-origin-resource-policy": "cross-origin",
+        "date": "Mon, 27 Jul 2026 15:51:01 GMT",
+        "server": "Kestrel",
+        "server-processing-duration-in-ticks": "727106",
+        "strict-transport-security": "max-age=31536000; preload;",
+        "vary": "Accept-Encoding",
+        "x-robots-tag": "noindex"
+      },
+      "type": "Document"
+    },
+    {
+      "url": "https://id.hadron.ad.gt/api/v1/pbhid?partner_id=631&_it=prebid&t=1&src=id&domain=www.crazygames.com",
+      "status": 200,
+      "mime": "application/json",
+      "headers": {
+        "cache-control": "max-age=604800",
+        "cf-cache-status": "DYNAMIC",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-methods": "HEAD,GET,POST,PUT,DELETE,OPTIONS",
+        "cf-ray": "a21ccd9e588d0d97-DEL",
+        "access-control-allow-origin": "*",
+        "content-length": "2",
+        "date": "Mon, 27 Jul 2026 15:51:02 GMT",
+        "content-type": "application/json; charset=utf8",
+        "server": "cloudflare",
+        "access-control-allow-headers": "authorization,content-type"
+      },
+      "type": "Fetch"
+    },
+    {
+      "url": "https://fastlane.rubiconproject.com/a/api/fastlane.json?account_id=16980&site_id=152672&zone_id=1721772%3B756254&size_id=2%3B15&alt_size_ids=43%3B14&p_pos=atf&eid_pubcid.org=5806cf96-3ccb-48ea-b64b-6cd2e3e42304%5E1%5E%5E%5E%5E%5E&eid_adserver.org=7c273929-4e34-4f59-8115-a9e9a8c11024%5E1%5E%5Eadserver.org%5Eadserver.org%5E4%5ETDID&rf=https%3A%2F%2Fwww.crazygames.com%2Fgame%2Fracing-limits&kw=online%20games%2Cfree%20games%2Cbrowser%20games%2Chtml5%20games%2Cweb%20games%2Ccasual%20games%2Caction%20games%2Cmultiplayer%20games%2Cpuzzle%20games%2Cmobile-friendly%20games%2Cinstant%20play&tg_v.id=f768c86d-7db5-4f10-a633-87e0dd7b20d6&tg_i.domain=www.crazygames.com&tg_i.page=https%3A%2F%2Fwww.crazygames.com%2Fgame%2Fracing-limits&tg_i.name=CrazyGames&tg_i.documentLang=en&tk_flint=pbjs_lite_v11.8.0&x_source.tid=uba5ba07a-42e7-4ce0-bd1a-9ca5d763755b&l_pb_bid_id=4d2e3080-5db0-47a2-b07e-643def0ef971%3B63ce1f3e-4850-41a8-9a3b-482284b2f86c&p_screen_res=800x600&rp_secure=1&x_imp.ext.tid=u7399401e-1b6a-4623-a0ee-db42412baefc%3Bucf6cbc93-a4d5-4c8b-91f0-0d0880c62ff5&rp_hard_floor=0.1307&p_gpid=%2F1004887%2FROS-728x90-Leaderboard-Below-Game-R%3B%2F1004887%2FROS-300x250-Right-MPU&m_ch_arch=x86&m_ch_bitness=64&m_ch_ua=%22Not%3BA%3DBrand%22%7Cv%3D%228%22%2C%22Chromium%22%7Cv%3D%22150%22%2C%22Google%20Chrome%22%7Cv%3D%22150%22%3B%22Not%3BA%3DBrand%22%7Cv%3D%228%22%2C%22Chromium%22%7Cv%3D%22150%22%2C%22Google%20Chrome%22%7Cv%3D%22150%22&m_ch_full_ver=%22Not%3BA%3DBrand%22%7Cv%3D%228.0.0.0%22%2C%22Chromium%22%7Cv%3D%22150.0.7871.182%22%2C%22Google%20Chrome%22%7Cv%3D%22150.0.7871.182%22%3B%22Not%3BA%3DBrand%22%7Cv%3D%228.0.0.0%22%2C%22Chromium%22%7Cv%3D%22150.0.7871.182%22%2C%22Google%20Chrome%22%7Cv%3D%22150.0.7871.182%22&m_ch_mobile=%3F0&m_ch_platform=Windows&m_ch_platform_ver=19.0.0&slots=2&rand=0.05840660620994087",
+      "status": 200,
+      "mime": "application/json",
+      "headers": {
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "pragma": "no-cache",
+        "access-control-allow-credentials": "true",
+        "expires": "Wed, 17 Sep 1975 21:32:10 GMT",
+        "access-control-allow-origin": "https://www.crazygames.com",
+        "content-length": "517",
+        "date": "Mon, 27 Jul 2026 15:51:03 GMT",
+        "content-type": "application/json",
+        "vary": "Accept-Encoding",
+        "server": "nginx/1.29.7"
+      },
+      "type": "Fetch"
+    },
+    {
+      "url": "https://tlx.3lift.com/header/auction?lib=prebid&v=11.8.0&referrer=https%3A%2F%2Fwww.crazygames.com%2Fgame%2Fracing-limits&tmax=2400",
+      "status": 200,
+      "mime": "application/json",
+      "headers": {
+        "cache-control": "no-cache, no-store, must-revalidate",
+        "content-encoding": "gzip",
+        "pragma": "no-cache",
+        "access-control-allow-credentials": "true",
+        "expires": "Thu, 15 Oct 1992 20:10:00 GMT",
+        "access-control-allow-origin": "https://www.crazygames.com",
+        "x-auction-status": "10, 10",
+        "x-xss-protection": "0",
+        "content-type": "application/json; charset=utf-8",
+        "vary": "Accept-Encoding"
+      },
+      "type": "Fetch"
+    },
+    {
+      "url": "https://fafvertizing.crazygames.com/v12.30/424.bundle.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "headers": {
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "\"bdf2b9e1c98a9e7c690bdb3a6ea18cb4\"",
+        "age": "2838",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "UJt1D0qThERQHK9x0cY3VrUErxriVe8VfHcvtE7Zxcy1JCYmuEW5hg==",
+        "date": "Mon, 27 Jul 2026 15:51:03 GMT",
+        "content-type": "application/javascript",
+        "vary": "accept-encoding",
+        "last-modified": "Mon, 20 Jul 2026 09:59:04 GMT",
+        "cache-control": "public, max-age=7200, immutable, no-transform",
+        "via": "1.1 8ead054384c1626556ee4410cad35692.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccda5e9a5a809-DEL",
+        "accept-ranges": "bytes",
+        "content-length": "16308",
+        "x-amz-cf-pop": "HIO52-P1",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Script"
+    },
+    {
+      "url": "https://rp4.liadm.com/j?dtstmp=1785167463083&se=eyJlbWFpbEhhc2giOiIifQ&duid=0f1851717525--01kyj4bgn50xssrz9ajb9qg9wp&tv=11.8.0&pu=https%3A%2F%2Fwww.crazygames.com%2Fgame%2Fracing-limits&wpn=prebid&cd=.crazygames.com&i6=MjQwMTo0OTAwOmE4Yjk6ZDBlYTo3NTY1OmU3MWE6ZTc0ZDozOTli&n3pc=true",
+      "status": 200,
+      "mime": "application/json",
+      "headers": {
+        "x-pixel-event-id": "5390aeb9-14a6-48b3-b9f2-513907d0004b",
+        "access-control-max-age": "86400",
+        "access-control-expose-headers": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-methods": "GET",
+        "access-control-allow-origin": "null",
+        "content-length": "13",
+        "date": "Mon, 27 Jul 2026 15:51:03 GMT",
+        "content-type": "application/json"
+      },
+      "type": "Fetch"
+    },
+    {
+      "url": "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=6031775203835627&correlator=180634952288174&eid=31099681%2C31099881&output=ldjh&gdfp_req=1&vrg=202607210101&ptt=17&impl=fifs&gdpr=0&iu_parts=1004887%2CROS-728x90-Leaderboard-Below-Game-R%2CROS-300x250-Right-MPU&enc_prev_ius=%2F0%2F1%2C%2F0%2F2&prev_iu_szs=728x90%7C320x50%2C300x250%7C250x250&ifi=1&didk=3387875052~4165063389&dids=div-gpt-ad-1590672385835-0~div-gpt-ad-1731941770755-0&adfs=3892669714~2746505196&sfv=1-0-45&fsbs=1%2C1&eri=1&sc=1&cookie_enabled=1&abxe=1&dt=1785167464948&lmt=1785167464&adxs=208%2C757&adys=625%2C747&biw=1248&bih=702&scr_x=0&scr_y=0&btvi=0%7C1&ucis=1%7C2&oid=2&u_his=1&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_sd=1&u_tz=330&dmc=16&bc=31&nvt=1&uach=WyJXaW5kb3dzIiwiMTkuMC4wIiwieDg2IiwiIiwiMTUwLjAuNzg3MS4xODIiLG51bGwsMCxudWxsLCI2NCIsW1siTm90O0E9QnJhbmQiLCI4LjAuMC4wIl0sWyJDaHJvbWl1bSIsIjE1MC4wLjc4NzEuMTgyIl0sWyJHb29nbGUgQ2hyb21lIiwiMTUwLjAuNzg3MS4xODIiXV0sMF0.&url=https%3A%2F%2Fwww.crazygames.com%2Fgame%2Fracing-limits&vis=1&psz=728x90%7C300x250&msz=728x0%7C300x0&fws=4%2C4&ohw=728%2C300&a3p=EjQKCnB1YmNpZC5vcmcSJDU4MDZjZjk2LTNjY2ItNDhlYS1iNjRiLTZjZDJlM2U0MjMwNFgBEjYKDGFkc2VydmVyLm9yZxIkN2MyNzM5MjktNGUzNC00ZjU5LTgxMTUtYTllOWE4YzExMDI0WAESHAoNY3J3ZGNudHJsLm5ldBjEjZei-jNIAFICCGQSHQoOZXNwLmNyaXRlby5jb20YxI2XovozSABSAghkEhQKBW9wZW54GKqOl6L6M0gAUgIIbxIXCghydGJob3VzZRjDjZei-jNIAFICCGQ.&dlt=1785167458934&idt=4486&prev_scp=amznbid%3D2%26amznp%3D2%26impression_number%3D1%26pf%3D0.11%7Camznbid%3D2%26amznp%3D2%26impression_number%3D1%26pf%3D0.11&cust_params=domain%3Dwww.crazygames.com%26pwa%3Dfalse%26category_slug%3Ddriving%26game_slug%3Dracing-limits%26tags_slug%3Dmobile%252C3d%252Ccar%252Cracing%252Cwith-friends%252Cdrifting%252Cmultiplayer%252Cspeed%252Cmission%26logged_in%3Dfalse%26os%3Dwindows%26device%3Ddesktop%26tgps%3D0%26locale%3Den-US%26li-module-enabled%3Dtrue%26aps_prebid_exp_26%3Dfalse%26prebid_v11.23.0%3Dfalse%26mid_roll_exp_1_26%3Dfalse%26prebid_rtd_exp_1_26%3Dfalse%26dummy_50_50_exp%3Dtrue%26dummy_90_10_exp%3Dfalse%26dummy_10_90_exp%3Dtrue%26dyn_floor_exp_3_26%3D1.1%26num_disabled_prebid%3D0%26ix_disabled%3Dfalse%26rubicon_disabled%3Dfalse%26ttd_disabled%3Dfalse%26nexx360_disabled%3Dfalse%26triplelift_disabled%3Dfalse%26medianet_disabled%3Dfalse%26amazon_disabled%3Dfalse%26aps_disabled%3Dfalse%26bidders_enabled%3Dix%252Crubicon%252Cttd%252Cnexx360%252Ctriplelift%252Cmedianet%252Camazon%252Caps%26idproviders_enabled%3Dcriteo%252CunifiedId%252Cid5Id%252CsharedId%252ClotamePanoramaId%252ChadronId%26vast_cache_type%3Dprebid.adnxs.com&adks=1992224147%2C3650962568&frm=20&eoidce=1&gblpids=%2F1004887%2FROS-728x90-Leaderboard-Below-Game-R~%2F1004887%2FROS-300x250-Right-MPU&pb_szs=728x90%7C320x50~300x250%7C250x250&pgls=CAk.&pbbce=1",
+      "status": 200,
+      "mime": "text/plain",
+      "headers": {
+        "content-encoding": "dcb",
+        "google-lineitem-id": "-2,-2",
+        "x-content-type-options": "nosniff",
+        "google-mediationtag-id": "-2",
+        "google-mediationgroup-id": "-2,-2",
+        "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+        "date": "Mon, 27 Jul 2026 15:51:03 GMT",
+        "content-type": "text/plain; charset=UTF-8",
+        "google-creative-id": "-2,-2",
+        "cache-control": "no-cache, must-revalidate",
+        "timing-allow-origin": "*",
+        "pragma": "no-cache",
+        "cross-origin-resource-policy": "cross-origin",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-origin": "https://www.crazygames.com",
+        "content-length": "450",
+        "x-xss-protection": "0",
+        "server": "cafe"
+      },
+      "type": "Fetch"
+    },
+    {
+      "url": "https://builds.crazygames.com/portal-web/_next/static/chunks/29956.e3725ba290deaa48.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "headers": {
+        "access-control-max-age": "3000",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "\"1ee092e1e20e28245dc3e0c5fdedab69\"",
+        "age": "1826464",
+        "access-control-allow-methods": "GET, HEAD",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "b7oF77gFacV1OF9ixb5K8innrXCvC5MU0a2PqdV5OZ5DRHiX6Hnlww==",
+        "date": "Mon, 27 Jul 2026 15:51:03 GMT",
+        "content-type": "application/javascript",
+        "vary": "Origin,Access-Control-Request-Headers,Access-Control-Request-Method, accept-encoding",
+        "last-modified": "Mon, 06 Jul 2026 12:19:39 GMT",
+        "cache-control": "public,max-age=31536000,immutable,no-transform",
+        "access-control-allow-credentials": "true",
+        "via": "1.1 cb712125c0a106eae5fd0f1f475a2270.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccda82938461f-DEL",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "https://www.crazygames.com",
+        "content-length": "1230",
+        "x-amz-cf-pop": "SFO53-P1",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Script"
+    },
+    {
+      "url": "https://imgs.crazygames.com/assets/SVG/icons/arrow-full-right.svg",
+      "status": 200,
+      "mime": "image/svg+xml",
+      "headers": {
+        "access-control-expose-headers": "*",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "x-amz-version-id": "ldzrDVBONktgPKEOevVeZtCVSw916OwJ",
+        "age": "555238",
+        "etag": "W/\"f9f17e28f4f297264c89aaa52b42d391\"",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "gTLrhHpWgQ1bOxplgAuOHxiModnFsQYTn3W_4i3O5acvPmoi_8tgVg==",
+        "date": "Mon, 27 Jul 2026 15:51:03 GMT",
+        "content-type": "image/svg+xml",
+        "last-modified": "Mon, 15 Dec 2025 15:09:39 GMT",
+        "x-amz-replication-status": "COMPLETED",
+        "cache-control": "public, max-age=94608000, s-maxage=94608000",
+        "via": "1.1 174e3485a380f14cb736cc4133917220.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccda8bcdaa7e2-DEL",
+        "access-control-allow-origin": "*",
+        "x-amz-cf-pop": "CPH50-P2",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://imgs.crazygames.com/crazygames/bannerHorBackground.svg?metadata=none&quality=60",
+      "status": 200,
+      "mime": "image/svg+xml",
+      "headers": {
+        "content-security-policy": "default-src 'none'; navigate-to 'none'; form-action 'none'; img-src data:; style-src 'unsafe-inline';",
+        "cache-control": "public, max-age=94608000, s-maxage=94608000",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "W/\"cfDnjIkcGGskZtFNMKpQWcMs0e9bgWpCpc4kXQA1ZtDQ:d9b50c81cfad9a81eaa37efe82c2cf59\"",
+        "age": "3639610",
+        "cf-resized": "internal=ok/h q=0 n=862+0 c=0+0 v=2026.6.0 l=422 f=false c2=0",
+        "x-content-type-options": "nosniff",
+        "via": "1.1 d53e1a749c7769e8c1e1cc4b5cd6ae7c.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccda8bc90a809-DEL",
+        "date": "Mon, 27 Jul 2026 15:51:03 GMT",
+        "content-type": "image/svg+xml",
+        "last-modified": "Wed, 12 Feb 2025 16:20:36 GMT",
+        "server": "cloudflare",
+        "vary": "Accept"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://imgs.crazygames.com/crazygames/ziggy_friends.svg?metadata=none&quality=60",
+      "status": 200,
+      "mime": "image/svg+xml",
+      "headers": {
+        "content-security-policy": "default-src 'none'; navigate-to 'none'; form-action 'none'; img-src data:;",
+        "cache-control": "public, max-age=94608000, s-maxage=94608000",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "etag": "W/\"cfTmJ2UfE-UpsElQFEXPtfdUCE9bgWpCpc4kXQA1ZtDQ:a026192b99264e809bea2d571d7e7e4e\"",
+        "age": "1794868",
+        "cf-resized": "internal=ok/h q=0 n=17+0 c=0+0 v=2026.1.6 l=8288 f=false c2=0",
+        "x-content-type-options": "nosniff",
+        "via": "1.1 a53bab1af200813b8f27e3c0a28b4964.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccda8bc8ea809-DEL",
+        "date": "Mon, 27 Jul 2026 15:51:03 GMT",
+        "content-type": "image/svg+xml",
+        "last-modified": "Wed, 22 Jan 2025 11:55:51 GMT",
+        "server": "cloudflare",
+        "vary": "Accept"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://cza.crazygames.com/event",
+      "status": 204,
+      "mime": "text/plain",
+      "headers": {
+        "date": "Mon, 27 Jul 2026 15:51:04 GMT",
+        "access-control-allow-origin": "*"
+      },
+      "type": "Ping"
+    },
+    {
+      "url": "https://cza.crazygames.com/event",
+      "status": 204,
+      "mime": "text/plain",
+      "headers": {
+        "date": "Mon, 27 Jul 2026 15:51:04 GMT",
+        "access-control-allow-origin": "*"
+      },
+      "type": "Ping"
+    },
+    {
+      "url": "https://www.crazygames.com/metrics/ag/g/c?v=2&tid=G-BB20KEMLCJ&gtm=45g92e67m0v882979294za204zd882979294&_p=1785167459849&gcd=13l3l3l3l1l1&npa=0&dma=0&tcfd=10000&gdid=dNzQzZD&ecid=1682507902&_eu=AAAAAGQC&_prs=ok&_uip=%3A%3A&are=1&cid=1872052858.1785167460&ec_mode=a&fp=1&frm=0&ni=0&pscdl=noapi&rcb=17&sr=800x600&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.182%7CGoogle%2520Chrome%3B150.0.7871.182&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&ur=IN-RJ&_gsid=NHRNRjUz3CmjGv90zheGboEO_oDmMArEcA&gaf=2&_s=2&tag_exp=115616985~115938465~115938469~118897920~118897930~119527019~119724320~119793972~119896802&dl=https%3A%2F%2Fwww.crazygames.com%2Fgame%2Fracing-limits&cu=EUR&sid=1785167460&sct=1&seg=0&dt=Racing%20Limits%20%F0%9F%95%B9%EF%B8%8F%20Play%20on%20CrazyGames&en=purchase&_c=1&_ee=1&gap.gtb=2&ep.pwa=false&ep.event_category=ad&ep.event_label=portalBanner&epn.value=0&ep.loader_type=none&ep.game_slug=racing-limits&_et=6026&tfd=7679",
+      "status": 204,
+      "mime": "text/plain",
+      "headers": {
+        "cache-control": "no-cache, no-store, must-revalidate",
+        "cf-cache-status": "DYNAMIC",
+        "pragma": "no-cache",
+        "cross-origin-resource-policy": "cross-origin",
+        "access-control-allow-credentials": "true",
+        "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsggc:197:0",
+        "report-to": "{\"group\":\"ascnsrsggc:197:0\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsggc:197:0\"}],}",
+        "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+        "cf-ray": "a21ccdae7a35a809-DEL",
+        "access-control-allow-origin": "https://www.crazygames.com",
+        "cross-origin-opener-policy-report-only": "same-origin; report-to=ascnsrsggc:197:0",
+        "date": "Mon, 27 Jul 2026 15:51:04 GMT",
+        "content-type": "text/plain",
+        "server": "cloudflare"
+      },
+      "type": "Fetch"
+    },
+    {
+      "url": "https://www.crazygames.com/metrics/d/ccm/form-data/312835820?gtm=45892e67m0phv9100436285za204zb882979294zd882979294xec&gcd=13l3l3l3l1l1&dma=0&tcfd=10000&tag_exp=115616986~115938465~115938469~118897920~118897930~119724320~119896803&rcb=9&gdid=dNzQzZD&npa=0&frm=0&pscdl=noapi&auid=990948354.1785167461&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.182%7CGoogle%2520Chrome%3B150.0.7871.182&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&ec_mode=a&gap.gtb=2&_uip=%3A%3A&emd=tvd.1&eme=tv.1~",
+      "status": 204,
+      "mime": "text/plain",
+      "headers": {
+        "cache-control": "no-cache, no-store, must-revalidate",
+        "cf-cache-status": "DYNAMIC",
+        "pragma": "no-cache",
+        "cross-origin-resource-policy": "cross-origin",
+        "access-control-allow-credentials": "true",
+        "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsgac:67:0",
+        "report-to": "{\"group\":\"ascnsrsgac:67:0\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsgac:67:0\"}],}",
+        "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+        "cf-ray": "a21ccdaeba86a809-DEL",
+        "access-control-allow-origin": "https://www.crazygames.com",
+        "cross-origin-opener-policy-report-only": "same-origin; report-to=ascnsrsgac:67:0",
+        "date": "Mon, 27 Jul 2026 15:51:04 GMT",
+        "content-type": "text/plain",
+        "server": "cloudflare"
+      },
+      "type": "Fetch"
+    },
+    {
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/312835820/?random=1785167466253&cv=11&fst=1785167466253&bg=ffffff&guid=ON&async=1&en=purchase&gtm=45892e67m0v9100436285za204zb882979294zd882979294xec&gcd=13l3l3l3l1l1&dma=0&tcfd=10000&tag_exp=115616986~115938465~115938469~118897920~118897930~119724320~119896803&u_w=800&u_h=600&url=https%3A%2F%2Fwww.crazygames.com%2Fgame%2Fracing-limits&rcb=9&frm=0&tiba=Racing%20Limits%20%F0%9F%95%B9%EF%B8%8F%20Play%20on%20CrazyGames&gdid=dNzQzZD&value=0&currency_code=EUR&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=990948354.1785167461&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.182%7CGoogle%2520Chrome%3B150.0.7871.182&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dpurchase%3Bevent_category%3Dad%3Bevent_label%3DportalBanner%3Bnon_interaction%3Dfalse%3Bloader_type%3Dnone%3Bgame_slug%3Dracing-limits&gap.gtb=2&ept=9&rfmt=3&fmt=4",
+      "status": 200,
+      "mime": "text/javascript",
+      "headers": {
+        "cache-control": "no-cache, must-revalidate",
+        "timing-allow-origin": "*",
+        "content-encoding": "br",
+        "pragma": "no-cache",
+        "cross-origin-resource-policy": "cross-origin",
+        "x-content-type-options": "nosniff",
+        "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+        "content-length": "2823",
+        "date": "Mon, 27 Jul 2026 15:51:04 GMT",
+        "x-xss-protection": "0",
+        "content-type": "text/javascript; charset=UTF-8",
+        "content-disposition": "attachment; filename=\"f.txt\"",
+        "server": "cafe"
+      },
+      "type": "Script"
+    },
+    {
+      "url": "https://www.google.com/ccm/collect?rcb=9&frm=0&auid=990948354.1785167461&dt=Racing%20Limits%20%F0%9F%95%B9%EF%B8%8F%20Play%20on%20CrazyGames&en=purchase&dl=https%3A%2F%2Fwww.crazygames.com%2Fgame%2Fracing-limits&scrsrc=www.crazygames.com&rnd=1584288560.1785167461&navt=n&npa=0&ep.event_category=ad&ep.event_label=portalBanner&ep.non_interaction=0&ep.loader_type=none&ep.game_slug=racing-limits&epn.value=0&ep.currency=EUR&gdid=dNzQzZD&gtm=45892e67m0v9100436285za204zb882979294zd882979294xec&gcd=13l3l3l3l1l1&dma=0&tcfd=10000&tag_exp=115616986~115938465~115938469~118897920~118897930~119724320~119896803&apve=1&apvf=f&gap.gtb=2&apvc=0&tids=AW-312835820&tid=AW-312835820&tft=1785167466281&tfd=7711&fmt=8",
+      "status": 200,
+      "mime": "text/plain",
+      "headers": {},
+      "type": "Fetch"
+    },
+    {
+      "url": "https://www.google.com/rmkt/collect/312835820/?random=1785167466253&cv=11&fst=1785167466253&fmt=8&bg=ffffff&guid=ON&async=1&en=purchase&gtm=45892e67m0v9100436285za204zb882979294zd882979294xec&gcd=13l3l3l3l1l1&dma=0&tcfd=10000&tag_exp=115616986~115938465~115938469~118897920~118897930~119724320~119896803&u_w=800&u_h=600&url=https%3A%2F%2Fwww.crazygames.com%2Fgame%2Fracing-limits&rcb=9&frm=0&tiba=Racing%20Limits%20%F0%9F%95%B9%EF%B8%8F%20Play%20on%20CrazyGames&gdid=dNzQzZD&value=0&currency_code=EUR&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=990948354.1785167461&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.182%7CGoogle%2520Chrome%3B150.0.7871.182&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dpurchase%3Bevent_category%3Dad%3Bevent_label%3DportalBanner%3Bnon_interaction%3Dfalse%3Bloader_type%3Dnone%3Bgame_slug%3Dracing-limits&gap.gtb=2&ept=68&gcp=5",
+      "status": 200,
+      "mime": "text/html",
+      "headers": {},
+      "type": "Fetch"
+    },
+    {
+      "url": "https://www.google.co.in/pagead/1p-user-list/312835820/?random=1785167466253&cv=11&fst=1785164400000&bg=ffffff&guid=ON&async=1&en=purchase&gtm=45892e67m0v9100436285za204zb882979294zd882979294xec&gcd=13l3l3l3l1l1&dma=0&tcfd=10000&tag_exp=115616986~115938465~115938469~118897920~118897930~119724320~119896803&u_w=800&u_h=600&url=https%3A%2F%2Fwww.crazygames.com%2Fgame%2Fracing-limits&rcb=9&frm=0&tiba=Racing%20Limits%20%F0%9F%95%B9%EF%B8%8F%20Play%20on%20CrazyGames&gdid=dNzQzZD&value=0&currency_code=EUR&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=990948354.1785167461&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.182%7CGoogle%2520Chrome%3B150.0.7871.182&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dpurchase%3Bevent_category%3Dad%3Bevent_label%3DportalBanner%3Bnon_interaction%3Dfalse%3Bloader_type%3Dnone%3Bgame_slug%3Dracing-limits&gap.gtb=2&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS-QEAEQoqgU4OqNSbQeg9K0GgoCYweLBc5Y8InHgJsQlWlTXKxRtPr6d8DvT1U4RR4BOm19JiZGse81rzs8FcLCppyDlAPZnOm-h4ayKIrgjtQdGT3HUo_bO0pbpQFNwW1J94IJW7vglGQ6FacDReYgvLA8GU5HL-yx8eVAkDyWTrB1bmJERry_0z5xDUXFDS7eKBXw9F_jyL4bGgW5ZVlH3gP25n4oBk7-oml9VqVX-_uwvhy8qeC3jiHtxcSh3LkRNDI36MZbqhTd3XQmwtbhW3lxbcd0WepRXDAqzocufpexl2mpG62-qu6R04GLyM1uA2xHoiJT7W17c&random=2818063995&rmt_tld=1&ipr=y",
+      "status": 200,
+      "mime": "image/gif",
+      "headers": {
+        "content-security-policy": "script-src 'none'; object-src 'none'",
+        "cache-control": "no-cache, no-store, must-revalidate",
+        "timing-allow-origin": "*",
+        "pragma": "no-cache",
+        "cross-origin-resource-policy": "cross-origin",
+        "x-content-type-options": "nosniff",
+        "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+        "content-length": "42",
+        "date": "Mon, 27 Jul 2026 15:51:04 GMT",
+        "x-xss-protection": "0",
+        "content-type": "image/gif",
+        "server": "cafe"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://www.google.com/pagead/1p-user-list/312835820/?random=1785167466253&cv=11&fst=1785164400000&bg=ffffff&guid=ON&async=1&en=purchase&gtm=45892e67m0v9100436285za204zb882979294zd882979294xec&gcd=13l3l3l3l1l1&dma=0&tcfd=10000&tag_exp=115616986~115938465~115938469~118897920~118897930~119724320~119896803&u_w=800&u_h=600&url=https%3A%2F%2Fwww.crazygames.com%2Fgame%2Fracing-limits&rcb=9&frm=0&tiba=Racing%20Limits%20%F0%9F%95%B9%EF%B8%8F%20Play%20on%20CrazyGames&gdid=dNzQzZD&value=0&currency_code=EUR&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=990948354.1785167461&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.182%7CGoogle%2520Chrome%3B150.0.7871.182&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dpurchase%3Bevent_category%3Dad%3Bevent_label%3DportalBanner%3Bnon_interaction%3Dfalse%3Bloader_type%3Dnone%3Bgame_slug%3Dracing-limits&gap.gtb=2&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS-QEAEQoqgU4OqNSbQeg9K0GgoCYweLBc5Y8InHgJsQlWlTXKxRtPr6d8DvT1U4RR4BOm19JiZGse81rzs8FcLCppyDlAPZnOm-h4ayKIrgjtQdGT3HUo_bO0pbpQFNwW1J94IJW7vglGQ6FacDReYgvLA8GU5HL-yx8eVAkDyWTrB1bmJERry_0z5xDUXFDS7eKBXw9F_jyL4bGgW5ZVlH3gP25n4oBk7-oml9VqVX-_uwvhy8qeC3jiHtxcSh3LkRNDI36MZbqhTd3XQmwtbhW3lxbcd0WepRXDAqzocufpexl2mpG62-qu6R04GLyM1uA2xHoiJT7W17c&random=2818063995&rmt_tld=0&ipr=y",
+      "status": 200,
+      "mime": "image/gif",
+      "headers": {
+        "content-security-policy": "script-src 'none'; object-src 'none'",
+        "cache-control": "no-cache, no-store, must-revalidate",
+        "timing-allow-origin": "*",
+        "pragma": "no-cache",
+        "cross-origin-resource-policy": "cross-origin",
+        "x-content-type-options": "nosniff",
+        "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+        "content-length": "42",
+        "date": "Mon, 27 Jul 2026 15:51:04 GMT",
+        "x-xss-protection": "0",
+        "content-type": "image/gif",
+        "server": "cafe"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://cza.crazygames.com/event",
+      "status": 204,
+      "mime": "text/plain",
+      "headers": {
+        "date": "Mon, 27 Jul 2026 15:51:04 GMT",
+        "access-control-allow-origin": "*"
+      },
+      "type": "Ping"
+    },
+    {
+      "url": "https://www.google.com/measurement/1p-conversion/?auid=990948354.1785167461&currency_code=EUR&cv=11&dma=0&en=purchase&fmt=8&frm=0&fst=1785167466215&gacid=1872052858.1785167460&gcd=13l3l3l3l1l1&gtm=45g92e67m0v882979294za204zd882979294xec&gtm_ee=1&npa=0&pscdl=noapi&random=1268674916&rcb=17&tag_exp=115616985~115938465~115938469~118897920~118897930~119527019~119724320~119793972~119896802&tcfd=10000&tiba=Racing%20Limits%20%F0%9F%95%B9%EF%B8%8F%20Play%20on%20CrazyGames&tid=G-BB20KEMLCJ&u_h=600&u_w=800&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.182%7CGoogle%2520Chrome%3B150.0.7871.182&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&url=https%3A%2F%2Fwww.crazygames.com%2Fgame%2Fracing-limits&value=0&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIItMaxAgiT2rECCNvcsQIIh9uxAgjTxbECCOvMsQII7c6xAgjVz7ECCPTasQII_eOxAgjJ47ECCJfUsQIIyduxAgjN5rECCLHhsQIIs-GxAgim3bECCLDesQIIgNuxAg&cerd=Cgjr370tp6e-LQ&eitems=ChEI8IOc0wYQm5zL_ZzC2cDWARIdAPpO9740hFFzgN_Bed4NS95ZTNfeq-5Mp__FTXQ&fsk=ChAI8IOc0wYQjsqpuKm14o4YEiwAZBf7T-cc6AiqmxAh8Rd0Xbv056m78qf9G8EkxdiEcc2Fo853oFLJj_3UzRoCIaU&pscrd=IhMI-LfrhJvzlQMV83KdCR3N_QSMOi1odHRwczovL3d3dy5jcmF6eWdhbWVzLmNvbS9nYW1lL3JhY2luZy1saW1pdHNCV0NoQUk4SU9jMHdZUXFyYUp2NDZXNG8xN0VpMEFrekdGb3p5UTBDNzhQSUdFOWZTaWNDSlpUVGszMWRFcHMtZDRZVDJCbHcwZDJvNWVKMDJOX1ZrUlpfTXoMCAliCAgAEAAYACAA",
+      "status": 200,
+      "mime": "text/html",
+      "headers": {},
+      "type": "Fetch"
+    },
+    {
+      "url": "https://imgs.crazygames.com/assets/SVG/icons/open-menu.svg",
+      "status": 200,
+      "mime": "image/svg+xml",
+      "headers": {
+        "access-control-expose-headers": "*",
+        "content-encoding": "br",
+        "cf-cache-status": "HIT",
+        "x-amz-version-id": "P6WTNTK_4QjNfYOL2d_4zdvm3mCwcxjK",
+        "age": "2124740",
+        "etag": "W/\"827ade15bd627175f46363e40a1e9860\"",
+        "x-cache": "Hit from cloudfront",
+        "x-amz-cf-id": "35mYiYgFXCanMROvTANXsqSao2AXcaEuqypt9v7EUDeHSmLjkx3i7Q==",
+        "date": "Mon, 27 Jul 2026 15:51:05 GMT",
+        "content-type": "image/svg+xml",
+        "last-modified": "Fri, 06 Feb 2026 10:47:34 GMT",
+        "x-amz-replication-status": "COMPLETED",
+        "cache-control": "public, max-age=94608000, s-maxage=94608000",
+        "via": "1.1 7b4d8df4c2cccf38bc35b78a4ed56120.cloudfront.net (CloudFront)",
+        "cf-ray": "a21ccdb439c5a7e2-DEL",
+        "access-control-allow-origin": "*",
+        "x-amz-cf-pop": "YVR52-P1",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "type": "Image"
+    },
+    {
+      "url": "https://cza.crazygames.com/event",
+      "status": 204,
+      "mime": "text/plain",
+      "headers": {
+        "date": "Mon, 27 Jul 2026 15:51:05 GMT",
+        "access-control-allow-origin": "*"
+      },
+      "type": "Ping"
+    },
+    {
+      "url": "https://cza.crazygames.com/event",
+      "status": 204,
+      "mime": "text/plain",
+      "headers": {
+        "date": "Mon, 27 Jul 2026 15:51:15 GMT",
+        "access-control-allow-origin": "*"
+      },
+      "type": "Ping"
+    },
+    {
+      "url": "https://cza.crazygames.com/event",
+      "status": 204,
+      "mime": "text/plain",
+      "headers": {
+        "date": "Mon, 27 Jul 2026 15:51:25 GMT",
+        "access-control-allow-origin": "*"
+      },
+      "type": "Ping"
+    },
+    {
+      "url": "https://cza.crazygames.com/event",
+      "status": 204,
+      "mime": "text/plain",
+      "headers": {
+        "date": "Mon, 27 Jul 2026 15:51:28 GMT",
+        "access-control-allow-origin": "*"
+      },
+      "type": "Ping"
+    },
+    {
+      "url": "https://cza.crazygames.com/event",
+      "status": 204,
+      "mime": "text/plain",
+      "headers": {
+        "date": "Mon, 27 Jul 2026 15:51:35 GMT",
+        "access-control-allow-origin": "*"
+      },
+      "type": "Ping"
+    }
+  ],
+  "frameTree": {
+    "frameTree": {
+      "frame": {
+        "id": "E6D0F2DF8D54E6BB73828E510106F552",
+        "loaderId": "44D5D9AF7BD295C1B1DB801BC1AF6802",
+        "url": "https://www.crazygames.com/game/racing-limits",
+        "domainAndRegistry": "crazygames.com",
+        "securityOrigin": "https://www.crazygames.com",
+        "securityOriginDetails": {
+          "isLocalhost": false
+        },
+        "mimeType": "text/html",
+        "adFrameStatus": {
+          "adFrameType": "none"
+        },
+        "secureContextType": "Secure",
+        "crossOriginIsolatedContextType": "NotIsolated",
+        "gatedAPIFeatures": []
+      },
+      "childFrames": [
+        {
+          "frame": {
+            "id": "86F02F9BD99A5D0035B82F76B72EFE6C",
+            "parentId": "E6D0F2DF8D54E6BB73828E510106F552",
+            "loaderId": "510A88BB013F36F8D7CF1C985BFB2209",
+            "name": "__pb_locator__",
+            "url": "about:blank",
+            "domainAndRegistry": "",
+            "securityOrigin": "://",
+            "securityOriginDetails": {
+              "isLocalhost": false
+            },
+            "mimeType": "text/html",
+            "adFrameStatus": {
+              "adFrameType": "none",
+              "explanations": []
+            },
+            "secureContextType": "Secure",
+            "crossOriginIsolatedContextType": "NotIsolated",
+            "gatedAPIFeatures": []
+          }
+        },
+        {
+          "frame": {
+            "id": "050332E15B751B6E006FF45F40E89683",
+            "parentId": "E6D0F2DF8D54E6BB73828E510106F552",
+            "loaderId": "0B9DD4C8522B17B78A08B9C892298ADF",
+            "name": "googlefcPresent",
+            "url": "about:blank",
+            "domainAndRegistry": "",
+            "securityOrigin": "://",
+            "securityOriginDetails": {
+              "isLocalhost": false
+            },
+            "mimeType": "text/html",
+            "adFrameStatus": {
+              "adFrameType": "none",
+              "explanations": []
+            },
+            "secureContextType": "Secure",
+            "crossOriginIsolatedContextType": "NotIsolated",
+            "gatedAPIFeatures": []
+          }
+        },
+        {
+          "frame": {
+            "id": "52D4CF7894A7E7A40E9D844E62E84B93",
+            "parentId": "E6D0F2DF8D54E6BB73828E510106F552",
+            "loaderId": "E4962938AA5C802EA3655A91FAC37324",
+            "name": "__tcfapiLocator",
+            "url": "about:blank",
+            "domainAndRegistry": "",
+            "securityOrigin": "://",
+            "securityOriginDetails": {
+              "isLocalhost": false
+            },
+            "mimeType": "text/html",
+            "adFrameStatus": {
+              "adFrameType": "none",
+              "explanations": []
+            },
+            "secureContextType": "Secure",
+            "crossOriginIsolatedContextType": "NotIsolated",
+            "gatedAPIFeatures": []
+          }
+        },
+        {
+          "frame": {
+            "id": "6263E46FE00069790383F2B875E5F6CA",
+            "parentId": "E6D0F2DF8D54E6BB73828E510106F552",
+            "loaderId": "84DF25768623C05D2A42832E7FF5AC77",
+            "name": "googlefcInactive",
+            "url": "about:blank",
+            "domainAndRegistry": "",
+            "securityOrigin": "://",
+            "securityOriginDetails": {
+              "isLocalhost": false
+            },
+            "mimeType": "text/html",
+            "adFrameStatus": {
+              "adFrameType": "none",
+              "explanations": []
+            },
+            "secureContextType": "Secure",
+            "crossOriginIsolatedContextType": "NotIsolated",
+            "gatedAPIFeatures": []
+          }
+        },
+        {
+          "frame": {
+            "id": "3AF801DA07FDA8CEA989C7AE5BF5B380",
+            "parentId": "E6D0F2DF8D54E6BB73828E510106F552",
+            "loaderId": "2B5B812FAEFBB08E4A32A62EA0FD329E",
+            "name": "googlefcLoaded",
+            "url": "about:blank",
+            "domainAndRegistry": "",
+            "securityOrigin": "://",
+            "securityOriginDetails": {
+              "isLocalhost": false
+            },
+            "mimeType": "text/html",
+            "adFrameStatus": {
+              "adFrameType": "none",
+              "explanations": []
+            },
+            "secureContextType": "Secure",
+            "crossOriginIsolatedContextType": "NotIsolated",
+            "gatedAPIFeatures": []
+          }
+        }
+      ]
+    }
+  },
+  "evaluation": {
+    "result": {
+      "type": "string",
+      "value": "{\"ua\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36\",\"webdriver\":false,\"webgpu\":true,\"crossOriginIsolated\":false,\"body\":\"1\\nLog in\\nController detected\\nExplore our controller compatible games\\nExplore games\\nPlay 100+ games online with your friends\\nGames\u00bbDriving\u00bbCar\u00bbRacing Limits\\nRacing Limits\\nShare\\nDeveloper\\nValvolex\\nRating\\n9.1\\n(based on last 6 months)\\nReleased\\nNovember 2023\\nLast Updated\\nJuly 2026\\nGame engine\\nUnity 6\\nPlatforms\\nBrowser (desktop, mobile, tablet), CrazyGames App (iOS, Android), App Store (iOS, Android, MSN)\\nOrientation\\nLandscape\\n\\nDriving\\n\\n298\\n\\nMobile\\n\\n2,342\\n\\n3D\\n\\n1,428\\n\\nCar\\n\\n382\\n\\nRacing\\n\\n126\\n\\nWith friends\\n\\n148\\n\\nDrifting\\n\\n118\\n\\nMultiplayer\\n\\n331\\n\\nSpeed\\n\\n160\\n\\nMission\\n\\n211\\n\\nRacing Limits is a racing game that lets you push your skills to the max. Race and overtake vehicles in city and highway traffic with four thrilling game modes: carrier, infinite, against-time, and free mode. Choose between one-way and two-way traffic, and experience three times of day - 'Morning,' 'Sunset,' and 'Night.' With multiple camera angles, sensitive controls, and realistic physics, it's a high-speed adventure you won't \",\"iframes\":[\"https://games.crazygames.com/en_US/racing-limits/index.html?czyExpParallelPreroll_CZY_18469_3=ineligible&czyExpClientSideLogging_CZY_19610=enabled&czyExpNewSaveProgressNotice_CZY_19240=disabled&isNewUser=true&__nextLocale=en-US&isFirstSession=true&v=2.6\",\"about:blank\",\"\",\"about:blank\",\"about:blank\",\"about:blank\",\"https://gumi.criteo.com/syncframe?origin=publishertagids&topUrl=www.crazygames.com&gdpr=0&gdpr_consent=#{%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22crazygames.com%22,%22topUrl%22:%22www.crazygames.com%22,%22version%22:108089,%22origin%22:%22publishertagids%22,%22requestId%22:%220.7485107500845302%22}\",\"https://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=n-onetag_3lift_n-sharethrough_n-MediaNet_pm-db5_an-db5_rbd_n-index_ox-db5_smrt_kg\",\"https://www.google.com/recaptcha/api2/aframe\",\"https://cm.g.doubleclick.net/partnerpixels?gdpr=0&url=https%3A%2F%2Fwww.crazygames.com%2Fgame%2Fracing-limits\"]}"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+game: {id: generic_arrows, name: Generic Arrow Keys, platform: Windows keyboard input}
+key_mapping:
+  {accelerate: up, brake: down, left: left, right: right, handbrake: space, nitro: n, pause: esc}
+sensitivity: normal
+steering_limits: {maximum_angle: 60, dead_zone: 7}
+calibration: {minimum_hand_span: 0.12}
+hud_branding: {title: Generic Arrow Keys, accent: "#36a8ff"}

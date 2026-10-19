@@ -1,0 +1,6 @@
+game: {id: american_truck_simulator, name: American Truck Simulator, platform: Windows}
+key_mapping: {accelerate: w, brake: s, left: a, right: d, horn: h, pause: p}
+sensitivity: easy
+steering_limits: {maximum_angle: 55, dead_zone: 7}
+calibration: {minimum_hand_span: 0.12}
+hud_branding: {title: American Truck Simulator, accent: "#c8513a"}

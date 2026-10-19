@@ -1,0 +1,34 @@
+game:
+  id: racing_limits
+  name: Racing Limits
+  platform: CrazyGames (browser)
+key_mapping:
+  accelerate: up
+  brake: down
+  left: left
+  right: right
+# Verify these controls in the live game. For WASD use w/s/a/d here.
+steering:
+  neutral_angle: 0.0
+  minimum_hand_span: 0.12
+  enter_left_threshold: -12.0
+  exit_left_threshold: -7.0
+  enter_right_threshold: 12.0
+  exit_right_threshold: 7.0
+  maximum_angle: 60.0
+  invert: false
+camera:
+  index: 0
+  requested_width: 1280
+  requested_height: 720
+  fps: 30
+gestures:
+  thresholds:
+    accelerate_y: 0.38
+    brake_y: 0.68
+visualization:
+  enabled: true
+recording:
+  enabled: false
+controller:
+  lost_tracking_release_timeout: 0.35

@@ -1,0 +1,6 @@
+game: {id: need_for_speed, name: Need for Speed, platform: Windows}
+key_mapping: {accelerate: w, brake: s, left: a, right: d, nitro: n, pause: p}
+sensitivity: pro
+steering_limits: {maximum_angle: 44, dead_zone: 3}
+calibration: {minimum_hand_span: 0.12}
+hud_branding: {title: Need for Speed, accent: "#e83232"}

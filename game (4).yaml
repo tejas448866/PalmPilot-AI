@@ -1,0 +1,6 @@
+game: {id: euro_truck_simulator_2, name: Euro Truck Simulator 2, platform: Windows}
+key_mapping: {accelerate: w, brake: s, left: a, right: d, horn: h, pause: p}
+sensitivity: easy
+steering_limits: {maximum_angle: 55, dead_zone: 7}
+calibration: {minimum_hand_span: 0.12}
+hud_branding: {title: Euro Truck Simulator 2, accent: "#d6a84b"}

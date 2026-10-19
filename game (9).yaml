@@ -1,0 +1,6 @@
+game: {id: racing_limits, name: Racing Limits, platform: CrazyGames}
+key_mapping: {accelerate: up, brake: down, left: left, right: right, nitro: n, horn: h, pause: p}
+sensitivity: normal
+steering_limits: {maximum_angle: 50, dead_zone: 5}
+calibration: {minimum_hand_span: 0.12}
+hud_branding: {title: Racing Limits, accent: "#ffb020"}

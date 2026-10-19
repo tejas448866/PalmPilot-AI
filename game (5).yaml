@@ -1,0 +1,6 @@
+game: {id: forza_horizon, name: Forza Horizon, platform: Windows}
+key_mapping: {accelerate: w, brake: s, left: a, right: d, nitro: n, pause: p}
+sensitivity: pro
+steering_limits: {maximum_angle: 42, dead_zone: 3}
+calibration: {minimum_hand_span: 0.12}
+hud_branding: {title: Forza Horizon, accent: "#e928a9"}

@@ -1,0 +1,23 @@
+active: normal
+profiles:
+  easy:
+    dead_zone: 8.0
+    maximum_angle: 55.0
+    response_curve: cubic
+    curve_strength: 2.0
+    min_cutoff: 0.75
+    beta: 0.012
+  normal:
+    dead_zone: 5.0
+    maximum_angle: 50.0
+    response_curve: exponential
+    curve_strength: 2.0
+    min_cutoff: 1.0
+    beta: 0.025
+  pro:
+    dead_zone: 3.0
+    maximum_angle: 42.0
+    response_curve: sigmoid
+    curve_strength: 6.0
+    min_cutoff: 1.4
+    beta: 0.055
