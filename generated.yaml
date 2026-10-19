@@ -1,0 +1,152 @@
+application:
+  name: AI Hand Gesture Racing Controller
+  version: 1.0.0
+  dry_run: true
+  debug: false
+camera:
+  index: 0
+  automatic_detection: false
+  preferred_source_id: camera-0
+  reconnect_attempts: 2
+  sources:
+    - id: camera-0
+      name: Integrated/USB Camera
+      kind: local
+      source: 0
+      enabled: true
+    - id: obs-virtual
+      name: OBS Virtual Camera
+      kind: obs
+      source: 1
+      enabled: false
+    - id: droidcam
+      name: DroidCam
+      kind: droidcam
+      source: ""
+      enabled: false
+      backend_order: [default]
+    - id: ip-webcam
+      name: IP Webcam
+      kind: ip_webcam
+      source: ""
+      enabled: false
+      backend_order: [default]
+  backend_order: [dshow, msmf, default]
+  requested_width: 1280
+  requested_height: 720
+  fallback_resolutions:
+    - [960, 540]
+    - [640, 480]
+  processing_width: 640
+  fps: 30
+  flip_horizontal: true
+  warmup_frames: 15
+  preview_scale: 1.0
+  preserve_aspect_ratio: true
+  autofocus: null
+  exposure: null
+hand_tracking:
+  static_image_mode: false
+  max_num_hands: 2
+  min_detection_confidence: 0.55
+  min_tracking_confidence: 0.50
+  model_complexity: 1
+  reference_point: palm_center
+  persistence_frames: 6
+  persistence_ms: 250
+  max_reference_jump: 0.20
+  point_smoothing_alpha: 0.45
+  one_euro_enabled: true
+  one_euro_min_cutoff: 1.0
+  one_euro_beta: 0.02
+  one_euro_derivative_cutoff: 1.0
+  minimum_gesture_confidence: 0.50
+steering:
+  mode: two_hand
+  neutral_angle: 0.0
+  minimum_hand_span: 0.12
+  enter_left_threshold: -12.0
+  exit_left_threshold: -7.0
+  enter_right_threshold: 12.0
+  exit_right_threshold: 7.0
+  maximum_angle: 60.0
+  normalized_left_range: 60.0
+  normalized_right_range: 60.0
+  invert: false
+  angle_smoothing_alpha: 0.35
+  median_window: 3
+  max_angle_jump: 25.0
+  one_euro_enabled: true
+  one_euro_min_cutoff: 1.0
+  one_euro_beta: 0.025
+  one_euro_derivative_cutoff: 1.0
+  response_curve: exponential
+  curve_strength: 2.0
+  sensitivity_profile: normal
+  sensitivity_profiles_file: config/steering_profiles.yaml
+gestures:
+  acceleration_strategy: vertical_region
+  brake_strategy: vertical_region
+  activation_frames: 3
+  release_frames: 2
+  thresholds:
+    accelerate_y: 0.38
+    brake_y: 0.68
+  auxiliary:
+    enabled:
+      nitro: false
+      horn: false
+      pause: false
+      reset_calibration: false
+    pinch_distance: 0.055
+    open_hand_distance: 0.22
+accessibility:
+  handed_mode: any
+  steering_mode: two_hand
+  mirror_mode: true
+smoothing:
+  pedal_stable_frames: 3
+controller:
+  game_profile: config/racing_limits.yaml
+  lost_tracking_release_timeout: 0.35
+  emergency_stop_key: q
+visualization:
+  enabled: true
+  window_name: AI Hand Gesture Racing Controller
+  draw_landmarks: true
+  draw_status: true
+  ui_scale: 1.0
+  landmark_radius: 5
+  palm_landmark_radius: 7
+  connection_thickness: 2
+  steering_line_thickness: 5
+  panel_alpha: 0.55
+  show_camera_diagnostics: true
+  show_performance_metrics: true
+  show_raw_angle: true
+  show_smoothed_angle: true
+  show_wheel_circle: true
+  show_confidence_bar: true
+  show_recommendations: true
+calibration:
+  samples_per_stage: 30
+  stability_window: 8
+  maximum_sample_deviation: 4.0
+  minimum_rotation_degrees: 10.0
+recording:
+  enabled: false
+  output_directory: output/recordings
+  codec: mp4v
+  fps: 30
+  screenshot_key: s
+  record_session: false
+  session_directory: output/session_recordings
+diagnostics:
+  enabled: true
+  camera_recommendation_interval_frames: 60
+  performance_window: 20
+session_reports:
+  enabled: true
+  output_directory: output/reports
+logging:
+  config_file: config/logging_config.yaml

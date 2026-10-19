@@ -1,0 +1,2 @@
+{"label": "open", "features": [0.1, 0.2], "handedness": "Right", "timestamp": 1.0, "source": "webcam"}
+{"label": "fist", "features": [0.3, 0.4], "handedness": "Right", "timestamp": 1.0, "source": "webcam"}

@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-07-27T16:09:24.198118+00:00",
+  "feature_count": 2,
+  "sample_count": 2,
+  "labels": {
+    "open": 1,
+    "fist": 1
+  },
+  "sha256": "fb515919b8b8ac0f17cbdf5be7a04ed75bb50c75b824e9484b6fa415061468d9"
+}

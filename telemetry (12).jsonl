@@ -1,0 +1,1 @@
+{"timestamp": 1.25, "raw_angle": -20, "calibrated_angle": -20, "smoothed_angle": -18, "steering_value": -0.4, "command": "left", "pedal": "accelerate", "confidence": 0.8, "valid": true, "profile": "Normal"}

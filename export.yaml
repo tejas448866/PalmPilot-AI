@@ -1,0 +1,13 @@
+game:
+  id: test_copy
+  name: Test Copy
+  platform: Windows
+key_mapping:
+  accelerate: w
+  brake: s
+  left: a
+  right: d
+sensitivity: normal
+steering_limits: {}
+calibration: {}
+hud_branding: {}

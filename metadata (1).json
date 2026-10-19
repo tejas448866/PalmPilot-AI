@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-07-27T04:59:24.002035+00:00",
+  "profile": "Normal",
+  "calibration": "calibration.yaml",
+  "camera": {
+    "backend": "dshow"
+  },
+  "video": "video.mp4",
+  "telemetry": "telemetry.jsonl"
+}

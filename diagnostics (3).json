@@ -1,0 +1,30 @@
+{
+  "application": {
+    "name": "AI Hand Gesture Racing Controller",
+    "version": "2.0.0.dev0",
+    "generated_at": "2026-07-27T16:09:23.447740+00:00"
+  },
+  "system": {
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "machine": "AMD64",
+    "frozen": false
+  },
+  "dependencies": {
+    "opencv-python": "4.11.0.86",
+    "mediapipe": "0.10.21",
+    "pynput": "1.8.2"
+  },
+  "camera": {
+    "index": 0,
+    "password": "<redacted>"
+  },
+  "active_profile": "generic_wasd",
+  "runtime": {},
+  "recent_logs": [
+    "line 7",
+    "line 8",
+    "line 9"
+  ],
+  "privacy": "Local diagnostics only; credentials and personal files are excluded."
+}
